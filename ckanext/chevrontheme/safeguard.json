@@ -1,0 +1,351 @@
+{
+    "scheming_version": 1,
+    "dataset_type": "chevron-safeguard",
+    "about_url": "https://www.chevronsherpa.com/",
+    "dataset_fields": [
+        {
+            "field_name": "owner_org",
+            "label": "Organization",
+            "display_property": "dct:publisher",
+            "validators": "owner_org_validator unicode",
+            "form_snippet": "organization.html"
+        },
+        {
+            "field_name": "title",
+            "label": "Title",
+            "preset": "title",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "notes",
+            "label": "Description",
+            "display_property": "dcat:Dataset/dct:description",
+            "form_snippet": "markdown.html",
+            "form_placeholder": "eg. Some useful notes about the data"
+        },
+        {
+            "field_name": "name",
+            "label": "URL",
+            "preset": "dataset_slug",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "tag_string",
+            "label": "Tags",
+	    "display_property": "dcat:Dataset/dct:keyword",
+            "validators": "ignore_missing tag_string_convert",
+            "form_placeholder": "type to auto-complete",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-tags": "",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?"
+            }
+        },
+        {
+            "field_name": "bpa_id",
+            "label": "BPA ID",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "insert_size_range",
+            "label": "Insert Size Range",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "library_construction_protocol",
+            "label": "Library Construction Protocol",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "sequencer",
+            "label": "Sequencer",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "analysis_software_version",
+            "label": "Analysis Software Version",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "data_type",
+            "label": "Data type",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "taxon_or_organism",
+            "label": "Taxon or Organism",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "strain_or_isolate",
+            "label": "Strain or Isolate",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "serovar",
+            "label": "Serovar",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "growth_media",
+            "label": "Growth Media",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "replicate",
+            "label": "Replicate",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "omics",
+            "label": "omics",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "analytical_platform",
+            "label": "Analytical Platform",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "facility",
+            "label": "Facility",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "work_order",
+            "label": "Work Order",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "contextual_data_submission_date",
+            "label": "Contextual Data Submission Date",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "data_generated",
+            "label": "Data Generated",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "archive_ingestion_date",
+            "label": "Archive Ingestion Date",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "sample_submission_date",
+            "label": "Sample Submission Date",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "strain_description",
+            "label": "Strain Description",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "key_virulence_genes",
+            "label": "Key Virulence Genes",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "gram_stain",
+            "label": "Gram Stain",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "isolation_source",
+            "label": "Isolation Source",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "publication_reference",
+            "label": "Publication Reference",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "contact_researcher",
+            "label": "Contact Researcher",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "culture_collection_date",
+            "label": "Culture Collection Date",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "study_title",
+            "label": "Study Title",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "investigation_type",
+            "label": "Investigation Type",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "project_name",
+            "label": "Project Name",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "sample_title",
+            "label": "Sample Title",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "ploidy",
+            "label": "Ploidy",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "num_replicons",
+            "label": "Num Replicons",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "estimated_size",
+            "label": "Estimated Size",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "propagation",
+            "label": "Propagation",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "isolate_growth_condition",
+            "label": "Isolate Growth Condition",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "collected_by",
+            "label": "Collected By",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "growth_condition_time",
+            "label": "Growth Condition Time",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "growth_condition_temperature",
+            "label": "Growth Condition Temperature",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "growth_condition_media",
+            "label": "Growth Condition Media",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_description",
+            "label": "Host Description",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_location",
+            "label": "Host Location",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_sex",
+            "label": "Host Sex",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_age",
+            "label": "Host Age",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_dob",
+            "label": "Host DOB",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_disease_outcome",
+            "label": "Host Disease Outcome",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_disease_status",
+            "label": "Host Disease Status",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_associated",
+            "label": "Host Associated",
+            "form_placeholder": ""
+        },
+        {
+            "field_name": "host_health_state",
+            "label": "Host Health State",
+            "form_placeholder": ""
+        }
+    ],
+
+    "resource_fields": [
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "upload_label": "Amplicon Sequence File"
+        },
+        {
+            "field_name": "index",
+            "label": "Index"
+        },
+        {
+            "field_name": "lane",
+            "label": "Lane"
+        },
+        {
+            "field_name": "vendor",
+            "label": "Vendor"
+        },
+        {
+            "field_name": "read",
+            "label": "Read"
+        },
+        {
+            "field_name": "flow_cell_id",
+            "label": "Flow Cell ID"
+        },
+        {
+            "field_name": "library",
+            "label": "Library"
+        },
+        {
+            "field_name": "extraction",
+            "label": "Extraction"
+        },
+        {
+            "field_name": "runsamplenum",
+            "label": "Run Sample Number"
+        },
+        {
+            "field_name": "seq_size",
+            "label": "Size"
+        },
+	{
+	    "field_name": "md5",
+	    "label": "MD5"
+	},
+	{
+	    "field_name": "sha256",
+	    "label": "SHA256"
+	},
+	{
+	    "field_name": "s3etag_8388608",
+	    "label": "S3 E-Tag (8MB multipart)"
+	}
+    ]
+}

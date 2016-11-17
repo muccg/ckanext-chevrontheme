@@ -1,0 +1,13 @@
+{% ckan_extends %}
+
+{% block footer_nav %}
+    <ul class="unstyled">
+	{% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
+	<li><a href="{{ api_url }}">CKAN API Documentation</a></li>
+    </ul>
+{% endblock %}
+
+{% block footer_attribution %}
+<p><a href="http://www.bioplatforms.com">Operated by Bioplatforms Australia</a></p>
+<p><a href="http://www.bioplatforms.com/contact/">Contact</a></p>
+{% endblock %}
