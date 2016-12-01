@@ -36,8 +36,7 @@ Example:
   {%- else -%}
     {{ text_query_none.format(query=query) }}
     <br/>
-    <small>Some datasets are restricted and may not be shown. To request access to restricted
-    datasets, please <a href="http://www.bioplatforms.com/contact/">contact Bioplatforms Australia</a>.</small>
+    <small>Some datasets are restricted and may not be shown.</small>
   {%- endif -%}
 {%- else -%}
   {%- if count -%}
@@ -45,7 +44,6 @@ Example:
   {%- else -%}
     {{ text_no_query_none }}
     <br/>
-    <small>Some datasets are restricted and may not be shown. To request access to restricted
-    datasets, please <a href="http://www.bioplatforms.com/contact/">contact Bioplatforms Australia</a>.</small>
+    <small>Some datasets are restricted and may not be shown.</small>
   {%- endif -%}
 {%- endif -%}

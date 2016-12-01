@@ -296,7 +296,7 @@
             "field_name": "url",
             "label": "Data File",
             "preset": "resource_url_upload",
-            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "form_placeholder": "http://example.com/my-dataset.fastq.gz",
             "upload_label": "Amplicon Sequence File"
         },
         {
