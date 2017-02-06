@@ -1,0 +1,244 @@
+{
+    "about_url": "https://downloads.bioplatforms.com/sepsis/",
+    "dataset_fields": [
+        {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "field_name": "accident_id",
+            "form_placeholder": "",
+            "label": "accident_id"
+        },
+        {
+            "field_name": "amount_of_material_or_number_of_individuals",
+            "form_placeholder": "",
+            "label": "amount_of_material_or_number_of_individuals"
+        },
+        {
+            "field_name": "data_occured",
+            "form_placeholder": "",
+            "label": "data_occured"
+        },
+        {
+            "field_name": "date_recorded",
+            "form_placeholder": "",
+            "label": "date_recorded"
+        },
+        {
+            "field_name": "description",
+            "form_placeholder": "",
+            "label": "description"
+        },
+        {
+            "field_name": "flash_initial_company_involved",
+            "form_placeholder": "",
+            "label": "flash_initial_company_involved"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "name"
+        },
+        {
+            "field_name": "name_of_person_reporting",
+            "form_placeholder": "",
+            "label": "name_of_person_reporting"
+        },
+        {
+            "field_name": "notes",
+            "form_placeholder": "",
+            "label": "notes"
+        },
+        {
+            "field_name": "physical_location",
+            "form_placeholder": "",
+            "label": "physical_location"
+        },
+        {
+            "field_name": "quarantine_activity_of_discovery",
+            "form_placeholder": "",
+            "label": "quarantine_activity_of_discovery"
+        },
+        {
+            "field_name": "quarantine_award_number_and_contractor_involved",
+            "form_placeholder": "",
+            "label": "quarantine_award_number_and_contractor_involved"
+        },
+        {
+            "field_name": "quarantine_condition_of_discovery",
+            "form_placeholder": "",
+            "label": "quarantine_condition_of_discovery"
+        },
+        {
+            "field_name": "quarantine_event_amount_of_materials_in_units",
+            "form_placeholder": "",
+            "label": "quarantine_event_amount_of_materials_in_units"
+        },
+        {
+            "field_name": "quarantine_event_assessement",
+            "form_placeholder": "",
+            "label": "quarantine_event_assessement"
+        },
+        {
+            "field_name": "quarantine_event_identification_confirmation",
+            "form_placeholder": "",
+            "label": "quarantine_event_identification_confirmation"
+        },
+        {
+            "field_name": "quarantine_event_identified_or_freight_movement_number",
+            "form_placeholder": "",
+            "label": "quarantine_event_identified_or_freight_movement_number"
+        },
+        {
+            "field_name": "quarantine_event_pathway",
+            "form_placeholder": "",
+            "label": "quarantine_event_pathway"
+        },
+        {
+            "field_name": "quarantine_event_rejected_from_bwi",
+            "form_placeholder": "",
+            "label": "quarantine_event_rejected_from_bwi"
+        },
+        {
+            "field_name": "quarantine_event_specimen_sample_sent",
+            "form_placeholder": "",
+            "label": "quarantine_event_specimen_sample_sent"
+        },
+        {
+            "field_name": "quarantine_events_by_category_and_level",
+            "form_placeholder": "",
+            "label": "quarantine_events_by_category_and_level"
+        },
+        {
+            "field_name": "quarantine_identification_confirmatino_species",
+            "form_placeholder": "",
+            "label": "quarantine_identification_confirmatino_species"
+        },
+        {
+            "field_name": "quarantine_identification_confirmation_common_name",
+            "form_placeholder": "",
+            "label": "quarantine_identification_confirmation_common_name"
+        },
+        {
+            "field_name": "quarantine_identification_confirmation_family",
+            "form_placeholder": "",
+            "label": "quarantine_identification_confirmation_family"
+        },
+        {
+            "field_name": "quarantine_identification_confirmation_genus",
+            "form_placeholder": "",
+            "label": "quarantine_identification_confirmation_genus"
+        },
+        {
+            "field_name": "quarantine_identification_confirmation_order",
+            "form_placeholder": "",
+            "label": "quarantine_identification_confirmation_order"
+        },
+        {
+            "field_name": "quarantine_is_species_native_to_area",
+            "form_placeholder": "",
+            "label": "quarantine_is_species_native_to_area"
+        },
+        {
+            "field_name": "quarantine_nature_of_discovery",
+            "form_placeholder": "",
+            "label": "quarantine_nature_of_discovery"
+        },
+        {
+            "field_name": "quarantine_opportunity_for_improvement",
+            "form_placeholder": "",
+            "label": "quarantine_opportunity_for_improvement"
+        },
+        {
+            "field_name": "quarantine_origin_of_source",
+            "form_placeholder": "",
+            "label": "quarantine_origin_of_source"
+        },
+        {
+            "field_name": "quarantine_procederual_adminstrative_type",
+            "form_placeholder": "",
+            "label": "quarantine_procederual_adminstrative_type"
+        },
+        {
+            "field_name": "quarantine_vessel_name",
+            "form_placeholder": "",
+            "label": "quarantine_vessel_name"
+        },
+        {
+            "field_name": "quarentine_subcontractor_involved",
+            "form_placeholder": "",
+            "label": "quarentine_subcontractor_involved"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "title"
+        }
+    ],
+    "dataset_type": "chevron-safeguard-event",
+    "resource_fields": [
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        }
+    ],
+    "scheming_version": 1
+}
