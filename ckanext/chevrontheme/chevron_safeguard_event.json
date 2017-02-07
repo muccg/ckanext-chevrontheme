@@ -42,172 +42,174 @@
         {
             "field_name": "accident_id",
             "form_placeholder": "",
-            "label": "accident_id"
+            "label": "Accident id"
         },
         {
             "field_name": "amount_of_material_or_number_of_individuals",
             "form_placeholder": "",
-            "label": "amount_of_material_or_number_of_individuals"
+            "label": "Amount of material or number of individuals"
         },
         {
             "field_name": "data_occured",
             "form_placeholder": "",
-            "label": "data_occured"
+            "label": "Data occured",
+            "preset": "date"
         },
         {
             "field_name": "date_recorded",
             "form_placeholder": "",
-            "label": "date_recorded"
+            "label": "Date recorded",
+            "preset": "date"
         },
         {
             "field_name": "description",
             "form_placeholder": "",
-            "label": "description"
+            "label": "Description"
         },
         {
             "field_name": "flash_initial_company_involved",
             "form_placeholder": "",
-            "label": "flash_initial_company_involved"
+            "label": "Flash initial company involved"
         },
         {
             "field_name": "name",
             "form_placeholder": "",
-            "label": "name"
+            "label": "Name"
         },
         {
             "field_name": "name_of_person_reporting",
             "form_placeholder": "",
-            "label": "name_of_person_reporting"
+            "label": "Name of person reporting"
         },
         {
             "field_name": "notes",
             "form_placeholder": "",
-            "label": "notes"
+            "label": "Notes"
         },
         {
             "field_name": "physical_location",
             "form_placeholder": "",
-            "label": "physical_location"
+            "label": "Physical location"
         },
         {
             "field_name": "quarantine_activity_of_discovery",
             "form_placeholder": "",
-            "label": "quarantine_activity_of_discovery"
+            "label": "Quarantine activity of discovery"
         },
         {
             "field_name": "quarantine_award_number_and_contractor_involved",
             "form_placeholder": "",
-            "label": "quarantine_award_number_and_contractor_involved"
+            "label": "Quarantine award number and contractor involved"
         },
         {
             "field_name": "quarantine_condition_of_discovery",
             "form_placeholder": "",
-            "label": "quarantine_condition_of_discovery"
+            "label": "Quarantine condition of discovery"
         },
         {
             "field_name": "quarantine_event_amount_of_materials_in_units",
             "form_placeholder": "",
-            "label": "quarantine_event_amount_of_materials_in_units"
+            "label": "Quarantine event amount of materials in units"
         },
         {
             "field_name": "quarantine_event_assessement",
             "form_placeholder": "",
-            "label": "quarantine_event_assessement"
+            "label": "Quarantine event assessement"
         },
         {
             "field_name": "quarantine_event_identification_confirmation",
             "form_placeholder": "",
-            "label": "quarantine_event_identification_confirmation"
+            "label": "Quarantine event identification confirmation"
         },
         {
             "field_name": "quarantine_event_identified_or_freight_movement_number",
             "form_placeholder": "",
-            "label": "quarantine_event_identified_or_freight_movement_number"
+            "label": "Quarantine event identified or freight movement number"
         },
         {
             "field_name": "quarantine_event_pathway",
             "form_placeholder": "",
-            "label": "quarantine_event_pathway"
+            "label": "Quarantine event pathway"
         },
         {
             "field_name": "quarantine_event_rejected_from_bwi",
             "form_placeholder": "",
-            "label": "quarantine_event_rejected_from_bwi"
+            "label": "Quarantine event rejected from bwi"
         },
         {
             "field_name": "quarantine_event_specimen_sample_sent",
             "form_placeholder": "",
-            "label": "quarantine_event_specimen_sample_sent"
+            "label": "Quarantine event specimen sample sent"
         },
         {
             "field_name": "quarantine_events_by_category_and_level",
             "form_placeholder": "",
-            "label": "quarantine_events_by_category_and_level"
+            "label": "Quarantine events by category and level"
         },
         {
             "field_name": "quarantine_identification_confirmatino_species",
             "form_placeholder": "",
-            "label": "quarantine_identification_confirmatino_species"
+            "label": "Quarantine identification confirmatino species"
         },
         {
             "field_name": "quarantine_identification_confirmation_common_name",
             "form_placeholder": "",
-            "label": "quarantine_identification_confirmation_common_name"
+            "label": "Quarantine identification confirmation common name"
         },
         {
             "field_name": "quarantine_identification_confirmation_family",
             "form_placeholder": "",
-            "label": "quarantine_identification_confirmation_family"
+            "label": "Quarantine identification confirmation family"
         },
         {
             "field_name": "quarantine_identification_confirmation_genus",
             "form_placeholder": "",
-            "label": "quarantine_identification_confirmation_genus"
+            "label": "Quarantine identification confirmation genus"
         },
         {
             "field_name": "quarantine_identification_confirmation_order",
             "form_placeholder": "",
-            "label": "quarantine_identification_confirmation_order"
+            "label": "Quarantine identification confirmation order"
         },
         {
             "field_name": "quarantine_is_species_native_to_area",
             "form_placeholder": "",
-            "label": "quarantine_is_species_native_to_area"
+            "label": "Quarantine is species native to area"
         },
         {
             "field_name": "quarantine_nature_of_discovery",
             "form_placeholder": "",
-            "label": "quarantine_nature_of_discovery"
+            "label": "Quarantine nature of discovery"
         },
         {
             "field_name": "quarantine_opportunity_for_improvement",
             "form_placeholder": "",
-            "label": "quarantine_opportunity_for_improvement"
+            "label": "Quarantine opportunity for improvement"
         },
         {
             "field_name": "quarantine_origin_of_source",
             "form_placeholder": "",
-            "label": "quarantine_origin_of_source"
+            "label": "Quarantine origin of source"
         },
         {
             "field_name": "quarantine_procederual_adminstrative_type",
             "form_placeholder": "",
-            "label": "quarantine_procederual_adminstrative_type"
+            "label": "Quarantine procederual adminstrative type"
         },
         {
             "field_name": "quarantine_vessel_name",
             "form_placeholder": "",
-            "label": "quarantine_vessel_name"
+            "label": "Quarantine vessel name"
         },
         {
             "field_name": "quarentine_subcontractor_involved",
             "form_placeholder": "",
-            "label": "quarentine_subcontractor_involved"
+            "label": "Quarentine subcontractor involved"
         },
         {
             "field_name": "title",
             "form_placeholder": "",
-            "label": "title"
+            "label": "Title"
         }
     ],
     "dataset_type": "chevron-safeguard-event",
