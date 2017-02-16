@@ -1,0 +1,247 @@
+{
+    "about_url": "https://downloads.bioplatforms.com/sepsis/",
+    "dataset_fields": [
+        {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "field_name": "activity_information",
+            "form_placeholder": "",
+            "label": "activity_information"
+        },
+        {
+            "field_name": "activity_name",
+            "form_placeholder": "",
+            "label": "activity_name"
+        },
+        {
+            "field_name": "benthic_habitat",
+            "form_placeholder": "",
+            "label": "benthic_habitat"
+        },
+        {
+            "field_name": "collected_by",
+            "form_placeholder": "",
+            "label": "collected_by"
+        },
+        {
+            "field_name": "comments",
+            "form_placeholder": "",
+            "label": "comments"
+        },
+        {
+            "field_name": "end_date",
+            "form_placeholder": "",
+            "label": "end_date",
+            "preset": "date"
+        },
+        {
+            "field_name": "end_time",
+            "form_placeholder": "",
+            "label": "end_time"
+        },
+        {
+            "field_name": "endx",
+            "form_placeholder": "",
+            "label": "endx"
+        },
+        {
+            "field_name": "endy",
+            "form_placeholder": "",
+            "label": "endy"
+        },
+        {
+            "field_name": "latitude",
+            "form_placeholder": "",
+            "label": "latitude"
+        },
+        {
+            "field_name": "length",
+            "form_placeholder": "",
+            "label": "length"
+        },
+        {
+            "field_name": "link_field",
+            "form_placeholder": "",
+            "label": "link_field"
+        },
+        {
+            "field_name": "locality",
+            "form_placeholder": "",
+            "label": "locality"
+        },
+        {
+            "field_name": "locality_code",
+            "form_placeholder": "",
+            "label": "locality_code"
+        },
+        {
+            "field_name": "longitude",
+            "form_placeholder": "",
+            "label": "longitude"
+        },
+        {
+            "field_name": "low_tide_level",
+            "form_placeholder": "",
+            "label": "low_tide_level"
+        },
+        {
+            "field_name": "low_tide_time",
+            "form_placeholder": "",
+            "label": "low_tide_time"
+        },
+        {
+            "field_name": "marine_pest_recorded",
+            "form_placeholder": "",
+            "label": "marine_pest_recorded"
+        },
+        {
+            "field_name": "media_link",
+            "form_placeholder": "",
+            "label": "media_link"
+        },
+        {
+            "field_name": "method",
+            "form_placeholder": "",
+            "label": "method"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "name"
+        },
+        {
+            "field_name": "notes",
+            "form_placeholder": "",
+            "label": "notes"
+        },
+        {
+            "field_name": "observers",
+            "form_placeholder": "",
+            "label": "observers"
+        },
+        {
+            "field_name": "person_responsible",
+            "form_placeholder": "",
+            "label": "person_responsible"
+        },
+        {
+            "field_name": "siteid",
+            "form_placeholder": "",
+            "label": "siteid"
+        },
+        {
+            "field_name": "start_date",
+            "form_placeholder": "",
+            "label": "start_date",
+            "preset": "date"
+        },
+        {
+            "field_name": "start_time",
+            "form_placeholder": "",
+            "label": "start_time"
+        },
+        {
+            "field_name": "startx",
+            "form_placeholder": "",
+            "label": "startx"
+        },
+        {
+            "field_name": "starty",
+            "form_placeholder": "",
+            "label": "starty"
+        },
+        {
+            "field_name": "substrate",
+            "form_placeholder": "",
+            "label": "substrate"
+        },
+        {
+            "field_name": "survey_date",
+            "form_placeholder": "",
+            "label": "survey_date",
+            "preset": "date"
+        },
+        {
+            "field_name": "survey_region",
+            "form_placeholder": "",
+            "label": "survey_region"
+        },
+        {
+            "field_name": "survey_type",
+            "form_placeholder": "",
+            "label": "survey_type"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "title"
+        }
+    ],
+    "dataset_type": "chevron-sherpa-edms-imp-surveillance",
+    "resource_fields": [
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        }
+    ],
+    "scheming_version": 1
+}
