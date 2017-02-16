@@ -50,9 +50,9 @@
             "label": "Amount of material or number of individuals"
         },
         {
-            "field_name": "data_occured",
+            "field_name": "data_occurred",
             "form_placeholder": "",
-            "label": "Data occured",
+            "label": "Data occurred",
             "preset": "date"
         },
         {
@@ -202,9 +202,9 @@
             "label": "Quarantine vessel name"
         },
         {
-            "field_name": "quarentine_subcontractor_involved",
+            "field_name": "quarantine_subcontractor_involved",
             "form_placeholder": "",
-            "label": "Quarentine subcontractor involved"
+            "label": "Quarantine subcontractor involved"
         },
         {
             "field_name": "title",
