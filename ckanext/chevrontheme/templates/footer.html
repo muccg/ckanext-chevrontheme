@@ -1,12 +1,25 @@
 {% ckan_extends %}
 
-{% block footer_nav %}
-    <ul class="unstyled">
-	{% set api_url = 'http://docs.ckan.org/en/{0}/api/'.format(g.ckan_doc_version) %}
-	<li><a href="{{ api_url }}">CKAN API Documentation</a></li>
-    </ul>
-{% endblock %}
+{% block footer_content %}
 
-{% block footer_attribution %}
-<p><a href="http://ccg.murdoch.edu.au/">Operated by the Centre for Comparative Genomics, Murdoch University</a></p>
+    <div class="row">
+      <div class="span4 footer-links">
+	<div>
+	    <p><a href="http://ccg.murdoch.edu.au/">Operated by the Centre for Comparative Genomics, Murdoch University</a></p>
+	</div>
+      </div>
+      <div class="span4 attribution">
+      </div>
+      <div class="span4 attribution">
+	<ul class="nav">
+	    {% block header_site_navigation_tabs %}
+		{{ h.build_nav_main(
+		('organizations_index', _('Organisations')),
+		('search', _('Datasets')),
+		('group_index', _('Groups')),
+		) }}
+	    {% endblock %}
+	</ul>
+      </div>
+    </div>
 {% endblock %}
