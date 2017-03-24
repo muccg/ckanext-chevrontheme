@@ -276,3 +276,7 @@ body {
   margin-left: 30px;
   margin-top: 1em;
 }
+
+#login-required {
+  color: rgb(86,86,86);
+}

@@ -16,6 +16,7 @@ td .fa {
 
     <div class="span10 col2">
       <div class="module module-search module-narrow module-shallow box">
+  {% if c.userobj %}
 	<form class="module-content search-form" method="get" action="/dataset" _lpchecked="1">
 	  <h3 class="heading">Search</h3>
 	  <div class="search-input control-group search-giant">
@@ -26,6 +27,14 @@ td .fa {
 	    </button>
 	  </div>
 	</form>
+  {% else %}
+  <div id="login-required">
+    <h1>Access to this system is restricted.</h1>
+    <p>
+      Please <a href="/user/login">log in</a>.
+    </p>
+  </div>
+  {% endif %}
       </div>
     </div>
 
