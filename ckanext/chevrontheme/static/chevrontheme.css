@@ -280,3 +280,8 @@ body {
 #login-required {
   color: rgb(86,86,86);
 }
+
+#front-search {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
