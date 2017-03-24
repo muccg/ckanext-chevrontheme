@@ -262,3 +262,12 @@ body {
   display: block;
 }
 
+.wrapper {
+  background-image: none !important;
+}
+
+.dataset-item {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
