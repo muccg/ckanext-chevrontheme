@@ -271,3 +271,8 @@ body {
   padding-top: 3px;
 }
 
+#sherpa-title {
+  color: rgb(86,86,86);
+  margin-left: 30px;
+  margin-top: 1em;
+}

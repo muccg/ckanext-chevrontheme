@@ -82,9 +82,10 @@
     <hgroup class="row dwga-header-row"><!-- Force  navbar into new row -->
 
       {% block header_logo %}
-				<div class="dwga-logo dwga-inlineblock">
+				<div class="dwga-logo dwga-inlineblock inline-headers">
   				<a class="logo pull-left" href="{{ h.url('home') }}"><img 
 						src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}" title="{{ g.site_title }}" /></a>
+          <h1 id="sherpa-title"><a href="{{ h.url('home') }}">Sherpa</a></h1>
 				</div>
       {% endblock header_logo %}
 
