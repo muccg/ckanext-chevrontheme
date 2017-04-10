@@ -18,7 +18,9 @@ body {
   font-size: 12pt;
 }
 
-
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
+  background-position: 50% 50% !important;
+}
 
 .account-masthead {
   height: 39px;
@@ -248,7 +250,6 @@ body {
   box-shadow: none;
   text-shadow: none;
 }
-
 
 /* The debug toggle */
 #debug-toggle {
