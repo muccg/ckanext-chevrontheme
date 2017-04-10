@@ -40,81 +40,88 @@
             "validators": "ignore_missing tag_string_convert"
         },
         {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
             "field_name": "activity_information",
             "form_placeholder": "",
-            "label": "activity_information"
+            "label": "Activity information"
         },
         {
             "field_name": "activity_name",
             "form_placeholder": "",
-            "label": "activity_name"
+            "label": "Activity name"
         },
         {
             "field_name": "activityid",
             "form_placeholder": "",
-            "label": "activityid"
+            "label": "Activityid"
         },
         {
             "field_name": "collected_by",
             "form_placeholder": "",
-            "label": "collected_by"
+            "label": "Collected by"
         },
         {
             "field_name": "comments",
             "form_placeholder": "",
-            "label": "comments"
+            "label": "Comments"
         },
         {
             "field_name": "end_date",
             "form_placeholder": "",
-            "label": "end_date",
+            "label": "End date",
             "preset": "date"
         },
         {
             "field_name": "former_locality_description",
             "form_placeholder": "",
-            "label": "former_locality_description"
+            "label": "Former locality description"
         },
         {
             "field_name": "former_locality_name",
             "form_placeholder": "",
-            "label": "former_locality_name"
+            "label": "Former locality name"
         },
         {
             "field_name": "link_field",
             "form_placeholder": "",
-            "label": "link_field"
+            "label": "Link field"
         },
         {
             "field_name": "locality_name",
             "form_placeholder": "",
-            "label": "locality_name"
+            "label": "Locality name"
         },
         {
             "field_name": "name",
             "form_placeholder": "",
-            "label": "name"
+            "label": "Name"
         },
         {
             "field_name": "notes",
             "form_placeholder": "",
-            "label": "notes"
+            "label": "Notes"
         },
         {
             "field_name": "person_responsible",
             "form_placeholder": "",
-            "label": "person_responsible"
+            "label": "Person responsible"
         },
         {
             "field_name": "start_date",
             "form_placeholder": "",
-            "label": "start_date",
+            "label": "Start date",
             "preset": "date"
         },
         {
             "field_name": "title",
             "form_placeholder": "",
-            "label": "title"
+            "label": "Title"
         }
     ],
     "dataset_type": "chevron-sherpa-edms-baseline-survey",

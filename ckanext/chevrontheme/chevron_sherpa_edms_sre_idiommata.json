@@ -40,222 +40,229 @@
             "validators": "ignore_missing tag_string_convert"
         },
         {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
             "field_name": "ac_collected_by",
             "form_placeholder": "",
-            "label": "ac_collected_by"
+            "label": "Ac collected by"
         },
         {
             "field_name": "activity_information",
             "form_placeholder": "",
-            "label": "activity_information"
+            "label": "Activity information"
         },
         {
             "field_name": "activity_name",
             "form_placeholder": "",
-            "label": "activity_name"
+            "label": "Activity name"
         },
         {
             "field_name": "burrow_count",
             "form_placeholder": "",
-            "label": "burrow_count"
+            "label": "Burrow count"
         },
         {
             "field_name": "class",
             "form_placeholder": "",
-            "label": "class"
+            "label": "Class"
         },
         {
             "field_name": "comments",
             "form_placeholder": "",
-            "label": "comments"
+            "label": "Comments"
         },
         {
             "field_name": "common_name",
             "form_placeholder": "",
-            "label": "common_name"
+            "label": "Common name"
         },
         {
             "field_name": "dna_sequence",
             "form_placeholder": "",
-            "label": "dna_sequence"
+            "label": "Dna sequence"
         },
         {
             "field_name": "easting",
             "form_placeholder": "",
-            "label": "easting"
+            "label": "Easting"
         },
         {
             "field_name": "end_date",
             "form_placeholder": "",
-            "label": "end_date",
+            "label": "End date",
             "preset": "date"
         },
         {
             "field_name": "fauna_count",
             "form_placeholder": "",
-            "label": "fauna_count"
+            "label": "Fauna count"
         },
         {
             "field_name": "gene_name",
             "form_placeholder": "",
-            "label": "gene_name"
+            "label": "Gene name"
         },
         {
             "field_name": "genus",
             "form_placeholder": "",
-            "label": "genus"
+            "label": "Genus"
         },
         {
             "field_name": "identification_method",
             "form_placeholder": "",
-            "label": "identification_method"
+            "label": "Identification method"
         },
         {
             "field_name": "identifier",
             "form_placeholder": "",
-            "label": "identifier"
+            "label": "Identifier"
         },
         {
             "field_name": "infraorder",
             "form_placeholder": "",
-            "label": "infraorder"
+            "label": "Infraorder"
         },
         {
             "field_name": "landform",
             "form_placeholder": "",
-            "label": "landform"
+            "label": "Landform"
         },
         {
             "field_name": "latitude",
             "form_placeholder": "",
-            "label": "latitude"
+            "label": "Latitude"
         },
         {
             "field_name": "link_field",
             "form_placeholder": "",
-            "label": "link_field"
+            "label": "Link field"
         },
         {
             "field_name": "longitude",
             "form_placeholder": "",
-            "label": "longitude"
+            "label": "Longitude"
         },
         {
             "field_name": "name",
             "form_placeholder": "",
-            "label": "name"
+            "label": "Name"
         },
         {
             "field_name": "northing",
             "form_placeholder": "",
-            "label": "northing"
+            "label": "Northing"
         },
         {
             "field_name": "notes",
             "form_placeholder": "",
-            "label": "notes"
+            "label": "Notes"
         },
         {
             "field_name": "observers",
             "form_placeholder": "",
-            "label": "observers"
+            "label": "Observers"
         },
         {
             "field_name": "order",
             "form_placeholder": "",
-            "label": "order"
+            "label": "Order"
         },
         {
             "field_name": "person_responsible",
             "form_placeholder": "",
-            "label": "person_responsible"
+            "label": "Person responsible"
         },
         {
             "field_name": "sample_id",
             "form_placeholder": "",
-            "label": "sample_id"
+            "label": "Sample id"
         },
         {
             "field_name": "sample_method",
             "form_placeholder": "",
-            "label": "sample_method"
+            "label": "Sample method"
         },
         {
             "field_name": "search_effort_mins",
             "form_placeholder": "",
-            "label": "search_effort_mins"
+            "label": "Search effort mins"
         },
         {
             "field_name": "search_end_time",
             "form_placeholder": "",
-            "label": "search_end_time"
+            "label": "Search end time"
         },
         {
             "field_name": "search_start_time",
             "form_placeholder": "",
-            "label": "search_start_time"
+            "label": "Search start time"
         },
         {
             "field_name": "siteid",
             "form_placeholder": "",
-            "label": "siteid"
+            "label": "Siteid"
         },
         {
             "field_name": "species",
             "form_placeholder": "",
-            "label": "species"
+            "label": "Species"
         },
         {
             "field_name": "sre_recorded",
             "form_placeholder": "",
-            "label": "sre_recorded"
+            "label": "Sre recorded"
         },
         {
             "field_name": "start_date",
             "form_placeholder": "",
-            "label": "start_date",
+            "label": "Start date",
             "preset": "date"
         },
         {
             "field_name": "suborder",
             "form_placeholder": "",
-            "label": "suborder"
+            "label": "Suborder"
         },
         {
             "field_name": "superfamily",
             "form_placeholder": "",
-            "label": "superfamily"
+            "label": "Superfamily"
         },
         {
             "field_name": "time_since_rain",
             "form_placeholder": "",
-            "label": "time_since_rain"
+            "label": "Time since rain"
         },
         {
             "field_name": "title",
             "form_placeholder": "",
-            "label": "title"
+            "label": "Title"
         },
         {
             "field_name": "trap_date",
             "form_placeholder": "",
-            "label": "trap_date",
+            "label": "Trap date",
             "preset": "date"
         },
         {
             "field_name": "trap_nights",
             "form_placeholder": "",
-            "label": "trap_nights"
+            "label": "Trap nights"
         },
         {
             "field_name": "vegetation_description",
             "form_placeholder": "",
-            "label": "vegetation_description"
+            "label": "Vegetation description"
         },
         {
             "field_name": "vegetation_type",
             "form_placeholder": "",
-            "label": "vegetation_type"
+            "label": "Vegetation type"
         }
     ],
     "dataset_type": "chevron-sherpa-edms-sre-idiommata",

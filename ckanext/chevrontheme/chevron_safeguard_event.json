@@ -40,6 +40,13 @@
             "validators": "ignore_missing tag_string_convert"
         },
         {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
             "field_name": "accident_id",
             "form_placeholder": "",
             "label": "Accident id"
@@ -50,9 +57,9 @@
             "label": "Amount of material or number of individuals"
         },
         {
-            "field_name": "data_occurred",
+            "field_name": "date_occurred",
             "form_placeholder": "",
-            "label": "Data occurred",
+            "label": "Date occurred",
             "preset": "date"
         },
         {
@@ -197,14 +204,14 @@
             "label": "Quarantine procederual adminstrative type"
         },
         {
-            "field_name": "quarantine_vessel_name",
-            "form_placeholder": "",
-            "label": "Quarantine vessel name"
-        },
-        {
             "field_name": "quarantine_subcontractor_involved",
             "form_placeholder": "",
             "label": "Quarantine subcontractor involved"
+        },
+        {
+            "field_name": "quarantine_vessel_name",
+            "form_placeholder": "",
+            "label": "Quarantine vessel name"
         },
         {
             "field_name": "title",
