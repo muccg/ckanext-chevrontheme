@@ -27,7 +27,9 @@ Example:
       {{ package.quarantine_nature_of_discovery }}
     </td>
     <td>
-      {% if package.type == 'chevron-safeguard-event' %}
+      {% if package.type == 'chevron-padil-images' %}
+         {{ package.taxonomic_classification }}
+      {% elif package.type == 'chevron-safeguard-event' %}
         {{ package.quarantine_identification_confirmation_family }} {{ package.quarantine_identification_confirmation_species }}
       {% else %}
         {{ package.family }} {{ package.species }}
@@ -35,7 +37,8 @@ Example:
     </td>
     <td>
       {% if package.type == 'chevron-padil-images' %}
-      {% if package.type == 'chevron-safeguard-event' %}
+         {{ package.location }}
+      {% elif package.type == 'chevron-safeguard-event' %}
         {{ package.location_locality }}
       {% else %}
         {{ package.locality }}
