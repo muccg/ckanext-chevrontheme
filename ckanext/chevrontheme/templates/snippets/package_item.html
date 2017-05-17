@@ -1,0 +1,64 @@
+{#
+Displays a single of dataset.
+
+package        - A package to display.
+item_class     - The class name to use on the list item.
+hide_resources - If true hides the resources (default: false).
+banner         - If true displays a popular banner (default: false).
+truncate       - The length to trucate the description to (default: 180)
+truncate_title - The length to truncate the title to (default: 80).
+
+Example:
+
+  {% snippet 'snippets/package_item.html', package=c.datasets[0] %}
+
+#}
+{% set truncate = truncate or 180 %}
+{% set truncate_title = truncate_title or 80 %}
+{% set title = package.title or package.name %}
+{% set notes = h.markdown_extract(package.notes, extract_length=truncate) %}
+
+{% block package_item %}
+  <tr>
+    <td>
+      {{ h.link_to(package.chevron_dataset or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
+    </td>
+    <td>
+      {{ package.quarantine_nature_of_discovery }}
+    </td>
+    <td>
+      {% if package.type == 'chevron-safeguard-event' %}
+        {{ package.quarantine_identification_confirmation_family }} {{ package.quarantine_identification_confirmation_species }}
+      {% else %}
+        {{ package.family }} {{ package.species }}
+      {% endif %}
+    </td>
+    <td>
+      {% if package.type == 'chevron-safeguard-event' %}
+        {{ package.physical_location }}
+      {% else %}
+        {{ package.locality }}
+      {% endif %}
+    </td>
+    <td>
+      {% if package.type == 'chevron-safeguard-event' %}
+        {{ package.date_occurred }}
+      {% else %}
+        {% if package.survey_date %}
+          {{ package.survey_date }}
+        {% elif package.start_date %}
+          {{ package.start_date }} &mdash; {{ package.end_date }}
+        {% endif %}
+      {% endif %}
+    </td>
+    <td>
+      {{ package.quarantine_is_species_native_to_area }}
+    </td>
+    <td>
+      {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}
+    </td>
+    <td>
+      {{ package.quarantine_condition_of_discovery }}
+    </td>
+  </tr>
+{% endblock %}
