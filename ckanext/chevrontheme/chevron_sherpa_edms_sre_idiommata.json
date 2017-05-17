@@ -1,5 +1,5 @@
 {
-    "about_url": "https://downloads.bioplatforms.com/sepsis/",
+    "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
             "display_property": "dct:publisher",
@@ -65,6 +65,11 @@
             "field_name": "burrow_count",
             "form_placeholder": "",
             "label": "Burrow count"
+        },
+        {
+            "field_name": "chevron_dataset",
+            "form_placeholder": "",
+            "label": "Chevron dataset"
         },
         {
             "field_name": "class",
@@ -293,6 +298,12 @@
         {
             "field_name": "s3etag_8388608",
             "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
         }
     ],
     "scheming_version": 1

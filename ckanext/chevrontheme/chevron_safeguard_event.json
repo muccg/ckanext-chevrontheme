@@ -1,5 +1,5 @@
 {
-    "about_url": "https://downloads.bioplatforms.com/sepsis/",
+    "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
             "display_property": "dct:publisher",
@@ -57,6 +57,11 @@
             "label": "Amount of material or number of individuals"
         },
         {
+            "field_name": "chevron_dataset",
+            "form_placeholder": "",
+            "label": "Chevron dataset"
+        },
+        {
             "field_name": "date_occurred",
             "form_placeholder": "",
             "label": "Date occurred",
@@ -79,6 +84,36 @@
             "label": "Flash initial company involved"
         },
         {
+            "field_name": "locality_building",
+            "form_placeholder": "",
+            "label": "Locality building"
+        },
+        {
+            "field_name": "location_country",
+            "form_placeholder": "",
+            "label": "Location country"
+        },
+        {
+            "field_name": "location_facility",
+            "form_placeholder": "",
+            "label": "Location facility"
+        },
+        {
+            "field_name": "location_locality",
+            "form_placeholder": "",
+            "label": "Location locality"
+        },
+        {
+            "field_name": "location_room",
+            "form_placeholder": "",
+            "label": "Location room"
+        },
+        {
+            "field_name": "location_state",
+            "form_placeholder": "",
+            "label": "Location state"
+        },
+        {
             "field_name": "name",
             "form_placeholder": "",
             "label": "Name"
@@ -92,11 +127,6 @@
             "field_name": "notes",
             "form_placeholder": "",
             "label": "Notes"
-        },
-        {
-            "field_name": "physical_location",
-            "form_placeholder": "",
-            "label": "Physical location"
         },
         {
             "field_name": "quarantine_activity_of_discovery",
@@ -154,11 +184,6 @@
             "label": "Quarantine events by category and level"
         },
         {
-            "field_name": "quarantine_identification_confirmatino_species",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmatino species"
-        },
-        {
             "field_name": "quarantine_identification_confirmation_common_name",
             "form_placeholder": "",
             "label": "Quarantine identification confirmation common name"
@@ -177,6 +202,11 @@
             "field_name": "quarantine_identification_confirmation_order",
             "form_placeholder": "",
             "label": "Quarantine identification confirmation order"
+        },
+        {
+            "field_name": "quarantine_identification_confirmation_species",
+            "form_placeholder": "",
+            "label": "Quarantine identification confirmation species"
         },
         {
             "field_name": "quarantine_is_species_native_to_area",
@@ -247,6 +277,12 @@
         {
             "field_name": "s3etag_8388608",
             "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
         }
     ],
     "scheming_version": 1
