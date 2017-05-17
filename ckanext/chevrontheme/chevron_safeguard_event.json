@@ -84,9 +84,9 @@
             "label": "Flash initial company involved"
         },
         {
-            "field_name": "locality_building",
+            "field_name": "location_building",
             "form_placeholder": "",
-            "label": "Locality building"
+            "label": "Location building"
         },
         {
             "field_name": "location_country",
