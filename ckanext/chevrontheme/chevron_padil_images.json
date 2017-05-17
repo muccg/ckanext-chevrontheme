@@ -82,7 +82,7 @@
             "label": "Title"
         }
     ],
-    "dataset_type": "chevron-safeguard-padil-images",
+    "dataset_type": "chevron-padil-images",
     "resource_fields": [
         {
             "field_name": "name",

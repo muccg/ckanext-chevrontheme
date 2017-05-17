@@ -34,6 +34,7 @@ Example:
       {% endif %}
     </td>
     <td>
+      {% if package.type == 'chevron-padil-images' %}
       {% if package.type == 'chevron-safeguard-event' %}
         {{ package.location_locality }}
       {% else %}
