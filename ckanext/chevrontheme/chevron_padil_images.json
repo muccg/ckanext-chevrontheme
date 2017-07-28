@@ -47,39 +47,69 @@
             "label": "Geospatial Coverage"
         },
         {
-            "field_name": "chevron_dataset",
+            "field_name": "author",
             "form_placeholder": "",
-            "label": "Chevron dataset"
+            "label": "Author"
         },
         {
-            "field_name": "grouping",
+            "field_name": "citation",
             "form_placeholder": "",
-            "label": "Grouping"
+            "label": "Citation"
         },
         {
-            "field_name": "location",
+            "field_name": "contact_author",
             "form_placeholder": "",
-            "label": "Location"
+            "label": "Contact author"
         },
         {
-            "field_name": "name",
+            "field_name": "contact_author_email",
             "form_placeholder": "",
-            "label": "Name"
+            "label": "Contact author email"
         },
         {
-            "field_name": "notes",
+            "field_name": "exotic_status",
             "form_placeholder": "",
-            "label": "Notes"
+            "label": "Exotic status"
         },
         {
-            "field_name": "taxonomic_classification",
+            "field_name": "image_id",
             "form_placeholder": "",
-            "label": "Taxonomic classification"
+            "label": "Image id"
         },
         {
-            "field_name": "title",
+            "field_name": "image_use",
             "form_placeholder": "",
-            "label": "Title"
+            "label": "Image use"
+        },
+        {
+            "field_name": "location_data",
+            "form_placeholder": "",
+            "label": "Location data"
+        },
+        {
+            "field_name": "reliability_index",
+            "form_placeholder": "",
+            "label": "Reliability index"
+        },
+        {
+            "field_name": "scientific_author",
+            "form_placeholder": "",
+            "label": "Scientific author"
+        },
+        {
+            "field_name": "species_id",
+            "form_placeholder": "",
+            "label": "Species id"
+        },
+        {
+            "field_name": "species_name",
+            "form_placeholder": "",
+            "label": "Species name"
+        },
+        {
+            "field_name": "taxonomy",
+            "form_placeholder": "",
+            "label": "Taxonomy"
         }
     ],
     "dataset_type": "chevron-padil-images",
@@ -116,10 +146,6 @@
             "field_name": "format",
             "label": "Format",
             "preset": "resource_format_autocomplete"
-        },
-        {
-            "field_name": "path",
-            "label": "path"
         }
     ],
     "scheming_version": 1
