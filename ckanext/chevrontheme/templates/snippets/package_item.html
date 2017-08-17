@@ -30,9 +30,9 @@ Example:
       {% if package.type == 'chevron-padil-images' %}
          {{ package.taxonomic_classification }}
       {% elif package.type == 'chevron-safeguard-event' %}
-        {{ package.quarantine_identification_confirmation_family }} {{ package.quarantine_identification_confirmation_species }}
+        {{ package.quarantine_identification_confirmation_genus }} {{ package.quarantine_identification_confirmation_species }}
       {% else %}
-        {{ package.family }} {{ package.species }}
+        {{ package.genus }} {{ package.species }}
       {% endif %}
     </td>
     <td>
