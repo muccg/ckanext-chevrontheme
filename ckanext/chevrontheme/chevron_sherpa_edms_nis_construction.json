@@ -27,6 +27,11 @@
             "label": "Activityid"
         },
         {
+            "field_name": "b_number",
+            "form_placeholder": "",
+            "label": "B number"
+        },
+        {
             "field_name": "bwi_status",
             "form_placeholder": "",
             "label": "Bwi status"
@@ -66,11 +71,6 @@
             "field_name": "determined_by",
             "form_placeholder": "",
             "label": "Determined by"
-        },
-        {
-            "field_name": "dr_b_number",
-            "form_placeholder": "",
-            "label": "Dr b number"
         },
         {
             "field_name": "end_date",
@@ -216,6 +216,61 @@
             "field_name": "superfamily",
             "form_placeholder": "",
             "label": "Superfamily"
+        },
+        {
+            "field_name": "synonym_author",
+            "form_placeholder": "",
+            "label": "Synonym author"
+        },
+        {
+            "field_name": "synonym_family",
+            "form_placeholder": "",
+            "label": "Synonym family"
+        },
+        {
+            "field_name": "synonym_genus",
+            "form_placeholder": "",
+            "label": "Synonym genus"
+        },
+        {
+            "field_name": "synonym_infraorder",
+            "form_placeholder": "",
+            "label": "Synonym infraorder"
+        },
+        {
+            "field_name": "synonym_order",
+            "form_placeholder": "",
+            "label": "Synonym order"
+        },
+        {
+            "field_name": "synonym_species",
+            "form_placeholder": "",
+            "label": "Synonym species"
+        },
+        {
+            "field_name": "synonym_subfamily",
+            "form_placeholder": "",
+            "label": "Synonym subfamily"
+        },
+        {
+            "field_name": "synonym_subgenus",
+            "form_placeholder": "",
+            "label": "Synonym subgenus"
+        },
+        {
+            "field_name": "synonym_suborder",
+            "form_placeholder": "",
+            "label": "Synonym suborder"
+        },
+        {
+            "field_name": "synonym_superfamily",
+            "form_placeholder": "",
+            "label": "Synonym superfamily"
+        },
+        {
+            "field_name": "synonym_tribe",
+            "form_placeholder": "",
+            "label": "Synonym tribe"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
