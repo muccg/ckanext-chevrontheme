@@ -34,6 +34,12 @@
             "label": "Description"
         },
         {
+            "field_name": "end_date",
+            "form_placeholder": "",
+            "label": "End date",
+            "preset": "date"
+        },
+        {
             "field_name": "flash_initial_company_involved",
             "form_placeholder": "",
             "label": "Flash initial company involved"
@@ -224,6 +230,12 @@
             "field_name": "specimen_type",
             "form_placeholder": "",
             "label": "Specimen type"
+        },
+        {
+            "field_name": "start_date",
+            "form_placeholder": "",
+            "label": "Start date",
+            "preset": "date"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
