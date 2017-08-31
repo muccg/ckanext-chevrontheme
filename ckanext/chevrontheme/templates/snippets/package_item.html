@@ -24,7 +24,7 @@ Example:
       {{ h.link_to(package.chevron_dataset or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
     </td>
     <td>
-      {{ package.quarantine_nature_of_discovery }}
+      {{ package.specimen_type }}
     </td>
     <td>
       {% if package.type == 'chevron-padil-images' %}
