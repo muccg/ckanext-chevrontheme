@@ -186,6 +186,11 @@
             "label": "Species"
         },
         {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
+        },
+        {
             "field_name": "ssc_date_time",
             "form_placeholder": "",
             "label": "Ssc date time",

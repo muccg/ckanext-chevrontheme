@@ -200,6 +200,11 @@
             "label": "Species"
         },
         {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
+        },
+        {
             "field_name": "sre_recorded",
             "form_placeholder": "",
             "label": "Sre recorded"

@@ -161,6 +161,11 @@
             "label": "Species"
         },
         {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
+        },
+        {
             "field_name": "start_date",
             "form_placeholder": "",
             "label": "Start date",

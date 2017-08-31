@@ -189,11 +189,6 @@
             "label": "Quarantine is species native to area"
         },
         {
-            "field_name": "quarantine_nature_of_discovery",
-            "form_placeholder": "",
-            "label": "Quarantine nature of discovery"
-        },
-        {
             "field_name": "quarantine_opportunity_for_improvement",
             "form_placeholder": "",
             "label": "Quarantine opportunity for improvement"
@@ -224,6 +219,11 @@
             "field_name": "spatial",
             "form_placeholder": "Paste a valid GeoJSON geometry",
             "label": "Geospatial Coverage"
+        },
+        {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
