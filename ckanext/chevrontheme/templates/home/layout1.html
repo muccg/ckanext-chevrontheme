@@ -25,9 +25,22 @@ td .fa {
 	      <i class="icon-search"></i>
 	      <span>Search</span>
 	    </button>
-	  </div>
-	</form>
+    </div>
+  {% for facet in c.search_facets %}
+  <div class="tags">
+    <h3>{{ facet | capitalize }}</h3>
+      {% set items = c.search_facets[facet]['items'] %}
+      {% for entry in items | sort(attribute='count', reverse=True) %}
+        {% if loop.index < 15 %}
+        <a class="tag" href="{% url_for controller='package', action='search' %}?{{ facet }}={{entry.name}}">{{ h.truncate(entry.display_name, 22) }} ({{entry.count}})</a>
+        {% endif %}
+      {% endfor %}
+  </div>
+  {% endfor %}
+  </form>
+
   {% else %}
+
   <div id="login-required">
     <h1>Access to this system is restricted.</h1>
     <p>
