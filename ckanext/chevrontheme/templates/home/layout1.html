@@ -28,7 +28,7 @@ td .fa {
     </div>
   {% for facet in c.search_facets %}
   <div class="tags">
-    <h3>{{ facet | capitalize }}</h3>
+    <h3>{{ facet | capitalize | replace('_', ' ') }}</h3>
       {% set items = c.search_facets[facet]['items'] %}
       {% for entry in items | sort(attribute='count', reverse=True) %}
         {% if loop.index < 15 %}
