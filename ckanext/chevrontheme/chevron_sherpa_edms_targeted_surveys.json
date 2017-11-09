@@ -161,6 +161,11 @@
             "label": "Species"
         },
         {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
+        },
+        {
             "field_name": "start_date",
             "form_placeholder": "",
             "label": "Start date",
@@ -190,6 +195,26 @@
             "field_name": "superfamily",
             "form_placeholder": "",
             "label": "Superfamily"
+        },
+        {
+            "field_name": "synonym_family",
+            "form_placeholder": "",
+            "label": "Synonym family"
+        },
+        {
+            "field_name": "synonym_genus",
+            "form_placeholder": "",
+            "label": "Synonym genus"
+        },
+        {
+            "field_name": "synonym_species",
+            "form_placeholder": "",
+            "label": "Synonym species"
+        },
+        {
+            "field_name": "synonym_superfamily",
+            "form_placeholder": "",
+            "label": "Synonym superfamily"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",

@@ -2,14 +2,14 @@
     "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
-            "field_name": "abundance",
+            "field_name": "ac_activity_type",
             "form_placeholder": "",
-            "label": "Abundance"
+            "label": "Ac activity type"
         },
         {
-            "field_name": "ac_collected_by",
+            "field_name": "activity_id",
             "form_placeholder": "",
-            "label": "Ac collected by"
+            "label": "Activity id"
         },
         {
             "field_name": "activity_information",
@@ -22,24 +22,14 @@
             "label": "Activity name"
         },
         {
-            "field_name": "activityid",
+            "field_name": "capture_status",
             "form_placeholder": "",
-            "label": "Activityid"
+            "label": "Capture status"
         },
         {
-            "field_name": "b_number",
+            "field_name": "cause_of_death",
             "form_placeholder": "",
-            "label": "B number"
-        },
-        {
-            "field_name": "bwi_status",
-            "form_placeholder": "",
-            "label": "Bwi status"
-        },
-        {
-            "field_name": "ce_collected_by",
-            "form_placeholder": "",
-            "label": "Ce collected by"
+            "label": "Cause of death"
         },
         {
             "field_name": "chevron_dataset",
@@ -47,9 +37,14 @@
             "label": "Chevron dataset"
         },
         {
-            "field_name": "class",
+            "field_name": "collected_by",
             "form_placeholder": "",
-            "label": "Class"
+            "label": "Collected by"
+        },
+        {
+            "field_name": "collection_event_result_id",
+            "form_placeholder": "",
+            "label": "Collection event result id"
         },
         {
             "field_name": "comments",
@@ -57,20 +52,14 @@
             "label": "Comments"
         },
         {
-            "field_name": "dafwa_id",
+            "field_name": "common_name",
             "form_placeholder": "",
-            "label": "Dafwa id"
+            "label": "Common name"
         },
         {
-            "field_name": "date_determined",
+            "field_name": "easting",
             "form_placeholder": "",
-            "label": "Date determined",
-            "preset": "date"
-        },
-        {
-            "field_name": "determined_by",
-            "form_placeholder": "",
-            "label": "Determined by"
+            "label": "Easting"
         },
         {
             "field_name": "end_date",
@@ -79,24 +68,29 @@
             "preset": "date"
         },
         {
-            "field_name": "family",
-            "form_placeholder": "",
-            "label": "Family"
-        },
-        {
             "field_name": "genus",
             "form_placeholder": "",
             "label": "Genus"
         },
         {
-            "field_name": "infraorder",
+            "field_name": "identifier",
             "form_placeholder": "",
-            "label": "Infraorder"
+            "label": "Identifier"
         },
         {
-            "field_name": "link_field",
+            "field_name": "invasion_risk_zone",
             "form_placeholder": "",
-            "label": "Link field"
+            "label": "Invasion risk zone"
+        },
+        {
+            "field_name": "is_active",
+            "form_placeholder": "",
+            "label": "Is active"
+        },
+        {
+            "field_name": "isactive",
+            "form_placeholder": "",
+            "label": "Isactive"
         },
         {
             "field_name": "locality",
@@ -104,19 +98,14 @@
             "label": "Locality"
         },
         {
-            "field_name": "locality_name",
+            "field_name": "location",
             "form_placeholder": "",
-            "label": "Locality name"
+            "label": "Location"
         },
         {
-            "field_name": "method",
+            "field_name": "molecular_analysis_result",
             "form_placeholder": "",
-            "label": "Method"
-        },
-        {
-            "field_name": "method_name",
-            "form_placeholder": "",
-            "label": "Method name"
+            "label": "Molecular analysis result"
         },
         {
             "field_name": "name",
@@ -128,6 +117,16 @@
             "field_name": "name",
             "form_placeholder": "",
             "label": "Name"
+        },
+        {
+            "field_name": "nights_open",
+            "form_placeholder": "",
+            "label": "Nights open"
+        },
+        {
+            "field_name": "northing",
+            "form_placeholder": "",
+            "label": "Northing"
         },
         {
             "display_property": "dcat:Dataset/dct:description",
@@ -142,14 +141,20 @@
             "label": "Notes"
         },
         {
-            "field_name": "order",
+            "field_name": "observation_date",
             "form_placeholder": "",
-            "label": "Order"
+            "label": "Observation date",
+            "preset": "date"
         },
         {
-            "field_name": "other_unique_id",
+            "field_name": "observation_exists",
             "form_placeholder": "",
-            "label": "Other unique id"
+            "label": "Observation exists"
+        },
+        {
+            "field_name": "observation_id",
+            "form_placeholder": "",
+            "label": "Observation id"
         },
         {
             "display_property": "dct:publisher",
@@ -164,14 +169,14 @@
             "label": "Person responsible"
         },
         {
-            "field_name": "quarantine_zone",
+            "field_name": "phase_number",
             "form_placeholder": "",
-            "label": "Quarantine zone"
+            "label": "Phase number"
         },
         {
-            "field_name": "sample_id",
+            "field_name": "scc_status",
             "form_placeholder": "",
-            "label": "Sample id"
+            "label": "Scc status"
         },
         {
             "display_property": "dcat:Dataset/dct:spatial",
@@ -191,10 +196,14 @@
             "label": "Specimen type"
         },
         {
-            "field_name": "ssc_date_time",
+            "field_name": "ssc_code",
             "form_placeholder": "",
-            "label": "Ssc date time",
-            "preset": "date"
+            "label": "Ssc code"
+        },
+        {
+            "field_name": "ssc_type",
+            "form_placeholder": "",
+            "label": "Ssc type"
         },
         {
             "field_name": "start_date",
@@ -203,79 +212,9 @@
             "preset": "date"
         },
         {
-            "field_name": "subfamily",
+            "field_name": "sub_species",
             "form_placeholder": "",
-            "label": "Subfamily"
-        },
-        {
-            "field_name": "subgenus",
-            "form_placeholder": "",
-            "label": "Subgenus"
-        },
-        {
-            "field_name": "suborder",
-            "form_placeholder": "",
-            "label": "Suborder"
-        },
-        {
-            "field_name": "superfamily",
-            "form_placeholder": "",
-            "label": "Superfamily"
-        },
-        {
-            "field_name": "synonym_author",
-            "form_placeholder": "",
-            "label": "Synonym author"
-        },
-        {
-            "field_name": "synonym_family",
-            "form_placeholder": "",
-            "label": "Synonym family"
-        },
-        {
-            "field_name": "synonym_genus",
-            "form_placeholder": "",
-            "label": "Synonym genus"
-        },
-        {
-            "field_name": "synonym_infraorder",
-            "form_placeholder": "",
-            "label": "Synonym infraorder"
-        },
-        {
-            "field_name": "synonym_order",
-            "form_placeholder": "",
-            "label": "Synonym order"
-        },
-        {
-            "field_name": "synonym_species",
-            "form_placeholder": "",
-            "label": "Synonym species"
-        },
-        {
-            "field_name": "synonym_subfamily",
-            "form_placeholder": "",
-            "label": "Synonym subfamily"
-        },
-        {
-            "field_name": "synonym_subgenus",
-            "form_placeholder": "",
-            "label": "Synonym subgenus"
-        },
-        {
-            "field_name": "synonym_suborder",
-            "form_placeholder": "",
-            "label": "Synonym suborder"
-        },
-        {
-            "field_name": "synonym_superfamily",
-            "form_placeholder": "",
-            "label": "Synonym superfamily"
-        },
-        {
-            "field_name": "synonym_tribe",
-            "form_placeholder": "",
-            "label": "Synonym tribe"
+            "label": "Sub species"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
@@ -301,12 +240,22 @@
             "label": "Title"
         },
         {
-            "field_name": "tribe",
+            "field_name": "transponder_code",
             "form_placeholder": "",
-            "label": "Tribe"
+            "label": "Transponder code"
+        },
+        {
+            "field_name": "video_analysis",
+            "form_placeholder": "",
+            "label": "Video analysis"
+        },
+        {
+            "field_name": "voucher_id",
+            "form_placeholder": "",
+            "label": "Voucher id"
         }
     ],
-    "dataset_type": "chevron-sherpa-edms-nis-construction",
+    "dataset_type": "chevron-sherpa-edms-nis-surveillance",
     "resource_fields": [
         {
             "field_name": "description",
