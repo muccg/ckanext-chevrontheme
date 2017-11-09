@@ -2,30 +2,17 @@
     "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
-            "field_name": "chevron_dataset",
-            "form_placeholder": "",
-            "label": "Chevron dataset"
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
         },
         {
-            "field_name": "grouping",
+            "field_name": "title",
             "form_placeholder": "",
-            "label": "Grouping"
-        },
-        {
-            "field_name": "location",
-            "form_placeholder": "",
-            "label": "Location"
-        },
-        {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "URL",
-            "preset": "dataset_slug"
-        },
-        {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "Name"
+            "label": "Title",
+            "preset": "title"
         },
         {
             "display_property": "dcat:Dataset/dct:description",
@@ -35,23 +22,10 @@
             "label": "Description"
         },
         {
-            "field_name": "notes",
+            "field_name": "name",
             "form_placeholder": "",
-            "label": "Notes"
-        },
-        {
-            "display_property": "dct:publisher",
-            "field_name": "owner_org",
-            "form_snippet": "organization.html",
-            "label": "Organization",
-            "validators": "owner_org_validator unicode"
-        },
-        {
-            "display_property": "dcat:Dataset/dct:spatial",
-            "display_snippet": "spatial.html",
-            "field_name": "spatial",
-            "form_placeholder": "Paste a valid GeoJSON geometry",
-            "label": "Geospatial Coverage"
+            "label": "URL",
+            "preset": "dataset_slug"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
@@ -66,27 +40,111 @@
             "validators": "ignore_missing tag_string_convert"
         },
         {
-            "field_name": "taxonomic_classification",
-            "form_placeholder": "",
-            "label": "Taxonomic classification"
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
         },
         {
-            "field_name": "title",
+            "field_name": "author",
             "form_placeholder": "",
-            "label": "Title",
-            "preset": "title"
+            "label": "Author"
         },
         {
-            "field_name": "title",
+            "field_name": "citation",
             "form_placeholder": "",
-            "label": "Title"
+            "label": "Citation"
+        },
+        {
+            "field_name": "contact_author",
+            "form_placeholder": "",
+            "label": "Contact author"
+        },
+        {
+            "field_name": "contact_author_email",
+            "form_placeholder": "",
+            "label": "Contact author email"
+        },
+        {
+            "field_name": "exotic_status",
+            "form_placeholder": "",
+            "label": "Exotic status"
+        },
+        {
+            "field_name": "image_id",
+            "form_placeholder": "",
+            "label": "Image id"
+        },
+        {
+            "field_name": "image_use",
+            "form_placeholder": "",
+            "label": "Image use"
+        },
+        {
+            "field_name": "location_data",
+            "form_placeholder": "",
+            "label": "Location data"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "Name"
+        },
+        {
+            "field_name": "reliability_index",
+            "form_placeholder": "",
+            "label": "Reliability index"
+        },
+        {
+            "field_name": "scientific_author",
+            "form_placeholder": "",
+            "label": "Scientific author"
+        },
+        {
+            "field_name": "species_id",
+            "form_placeholder": "",
+            "label": "Species id"
+        },
+        {
+            "field_name": "species_name",
+            "form_placeholder": "",
+            "label": "Species name"
+        },
+        {
+            "field_name": "taxonomy",
+            "form_placeholder": "",
+            "label": "Taxonomy"
         }
     ],
     "dataset_type": "chevron-padil-images",
     "resource_fields": [
         {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
             "field_name": "description",
             "label": "Description"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
         },
         {
             "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
@@ -95,35 +153,12 @@
             "preset": "resource_format_autocomplete"
         },
         {
-            "field_name": "md5",
-            "label": "MD5"
-        },
-        {
-            "field_name": "name",
-            "label": "Name"
-        },
-        {
             "field_name": "name",
             "label": "name"
         },
         {
             "field_name": "path",
             "label": "path"
-        },
-        {
-            "field_name": "s3etag_8388608",
-            "label": "S3 E-Tag (8MB multipart)"
-        },
-        {
-            "field_name": "sha256",
-            "label": "SHA256"
-        },
-        {
-            "field_name": "url",
-            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
-            "label": "Data File",
-            "preset": "resource_url_upload",
-            "upload_label": "Sequence File"
         }
     ],
     "scheming_version": 1
