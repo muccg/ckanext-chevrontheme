@@ -21,7 +21,7 @@ Example:
 {% block package_item %}
   <tr>
     <td>
-      {{ h.link_to(package.species_id or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
+      {{ h.link_to(package.chevron_dataset or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
     </td>
     <td>
         {% if package.type == 'chevron-padil-images' %}
@@ -60,7 +60,12 @@ Example:
       {% endif %}
     </td>
     <td>
-      {{ package.exotic_status }}
+        {% if package.type == 'chevron-padil-images '%}
+            {{ package.exotic_status }}
+        {% else %}
+            {{ package.quarantine_is_species_native_to_area }}
+        {% endif %}
+
     </td>
     <td>
       {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}
