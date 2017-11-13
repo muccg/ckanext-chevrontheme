@@ -60,12 +60,11 @@ Example:
       {% endif %}
     </td>
     <td>
-        {% if package.type == 'chevron-padil-images '%}
+        {% if package.type == 'chevron-padil-images' %}
             {{ package.exotic_status }}
         {% else %}
             {{ package.quarantine_is_species_native_to_area }}
         {% endif %}
-
     </td>
     <td>
       {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}
