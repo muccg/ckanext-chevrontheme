@@ -24,7 +24,11 @@ Example:
       {{ h.link_to(package.species_id or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
     </td>
     <td>
-      {{ package.species_name }}
+        {% if package.type == 'chevron-padil-images' %}
+            {{ package.species_name }}
+        {% else %}
+            {{ package.specimen_type }}
+        {% endif %}
     </td>
     <td>
       {% if package.type == 'chevron-padil-images' %}
