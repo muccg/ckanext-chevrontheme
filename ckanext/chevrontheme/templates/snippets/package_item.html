@@ -24,11 +24,15 @@ Example:
       {{ h.link_to(package.chevron_dataset or 'Unknown', h.url_for(controller='package', action='read', id=package.name)) }}
     </td>
     <td>
-      {{ package.specimen_type }}
+        {% if package.type == 'chevron-padil-images' %}
+            {{ package.species_name }}
+        {% else %}
+            {{ package.specimen_type }}
+        {% endif %}
     </td>
     <td>
       {% if package.type == 'chevron-padil-images' %}
-         {{ package.taxonomic_classification }}
+         {{ package.taxonomy }}
       {% elif package.type == 'chevron-safeguard-event' %}
         {{ package.quarantine_identification_confirmation_genus }} {{ package.quarantine_identification_confirmation_species }}
       {% else %}
@@ -37,7 +41,7 @@ Example:
     </td>
     <td>
       {% if package.type == 'chevron-padil-images' %}
-         {{ package.location }}
+         {{ package.location_data }}
       {% elif package.type == 'chevron-safeguard-event' %}
         {{ package.location_locality }}
       {% else %}
@@ -56,7 +60,11 @@ Example:
       {% endif %}
     </td>
     <td>
-      {{ package.quarantine_is_species_native_to_area }}
+        {% if package.type == 'chevron-padil-images' %}
+            {{ package.exotic_status }}
+        {% else %}
+            {{ package.quarantine_is_species_native_to_area }}
+        {% endif %}
     </td>
     <td>
       {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}

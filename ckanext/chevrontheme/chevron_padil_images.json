@@ -52,6 +52,11 @@
             "label": "Author"
         },
         {
+            "field_name": "chevron_dataset",
+            "form_placeholder": "",
+            "label": "Chevron dataset"
+        },
+        {
             "field_name": "citation",
             "form_placeholder": "",
             "label": "Citation"
