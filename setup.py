@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ckanext-chevrontheme',
-    version='0.14.9',
+    version='0.14.10',
     description='',
     license='AGPL3',
     author='CCG, Murdoch University',
