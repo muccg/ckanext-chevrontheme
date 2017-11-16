@@ -2,14 +2,29 @@
     "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
-            "field_name": "accident_id",
+            "field_name": "actions_taken",
             "form_placeholder": "",
-            "label": "Accident id"
+            "label": "Actions taken"
         },
         {
-            "field_name": "amount_of_material_or_number_of_individuals",
+            "field_name": "additional_action_information",
             "form_placeholder": "",
-            "label": "Amount of material or number of individuals"
+            "label": "Additional action information"
+        },
+        {
+            "field_name": "additional_location_information",
+            "form_placeholder": "",
+            "label": "Additional location information"
+        },
+        {
+            "field_name": "amount",
+            "form_placeholder": "",
+            "label": "Amount"
+        },
+        {
+            "field_name": "asset_identifier",
+            "form_placeholder": "",
+            "label": "Asset identifier"
         },
         {
             "field_name": "chevron_dataset",
@@ -17,21 +32,25 @@
             "label": "Chevron dataset"
         },
         {
-            "field_name": "date_occurred",
+            "field_name": "collected_by",
             "form_placeholder": "",
-            "label": "Date occurred",
-            "preset": "date"
+            "label": "Collected by"
         },
         {
-            "field_name": "date_recorded",
+            "field_name": "company_involved",
             "form_placeholder": "",
-            "label": "Date recorded",
-            "preset": "date"
+            "label": "Company involved"
         },
         {
-            "field_name": "description",
+            "field_name": "condition_of_detection",
             "form_placeholder": "",
-            "label": "Description"
+            "label": "Condition of detection"
+        },
+        {
+            "field_name": "date",
+            "form_placeholder": "",
+            "label": "Date",
+            "preset": "date"
         },
         {
             "field_name": "end_date",
@@ -40,9 +59,29 @@
             "preset": "date"
         },
         {
-            "field_name": "flash_initial_company_involved",
+            "field_name": "event_assessment",
             "form_placeholder": "",
-            "label": "Flash initial company involved"
+            "label": "Event assessment"
+        },
+        {
+            "field_name": "event_classification",
+            "form_placeholder": "",
+            "label": "Event classification"
+        },
+        {
+            "field_name": "event_description",
+            "form_placeholder": "",
+            "label": "Event description"
+        },
+        {
+            "field_name": "event_id",
+            "form_placeholder": "",
+            "label": "Event id"
+        },
+        {
+            "field_name": "impact_id",
+            "form_placeholder": "",
+            "label": "Impact id"
         },
         {
             "field_name": "location_building",
@@ -75,6 +114,11 @@
             "label": "Location state"
         },
         {
+            "field_name": "measurement",
+            "form_placeholder": "",
+            "label": "Measurement"
+        },
+        {
             "field_name": "name",
             "form_placeholder": "",
             "label": "URL",
@@ -84,11 +128,6 @@
             "field_name": "name",
             "form_placeholder": "",
             "label": "Name"
-        },
-        {
-            "field_name": "name_of_person_reporting",
-            "form_placeholder": "",
-            "label": "Name of person reporting"
         },
         {
             "display_property": "dcat:Dataset/dct:description",
@@ -103,6 +142,16 @@
             "label": "Notes"
         },
         {
+            "field_name": "opportunity_for_improvement",
+            "form_placeholder": "",
+            "label": "Opportunity for improvement"
+        },
+        {
+            "field_name": "origin_of_source",
+            "form_placeholder": "",
+            "label": "Origin of source"
+        },
+        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -110,114 +159,19 @@
             "validators": "owner_org_validator unicode"
         },
         {
-            "field_name": "quarantine_activity_of_discovery",
+            "field_name": "pathway",
             "form_placeholder": "",
-            "label": "Quarantine activity of discovery"
+            "label": "Pathway"
         },
         {
-            "field_name": "quarantine_award_number_and_contractor_involved",
+            "field_name": "person_who_made_the_detection",
             "form_placeholder": "",
-            "label": "Quarantine award number and contractor involved"
+            "label": "Person who made the detection"
         },
         {
-            "field_name": "quarantine_condition_of_discovery",
+            "field_name": "qms_deviation_type",
             "form_placeholder": "",
-            "label": "Quarantine condition of discovery"
-        },
-        {
-            "field_name": "quarantine_event_amount_of_materials_in_units",
-            "form_placeholder": "",
-            "label": "Quarantine event amount of materials in units"
-        },
-        {
-            "field_name": "quarantine_event_assessement",
-            "form_placeholder": "",
-            "label": "Quarantine event assessement"
-        },
-        {
-            "field_name": "quarantine_event_identification_confirmation",
-            "form_placeholder": "",
-            "label": "Quarantine event identification confirmation"
-        },
-        {
-            "field_name": "quarantine_event_identified_or_freight_movement_number",
-            "form_placeholder": "",
-            "label": "Quarantine event identified or freight movement number"
-        },
-        {
-            "field_name": "quarantine_event_pathway",
-            "form_placeholder": "",
-            "label": "Quarantine event pathway"
-        },
-        {
-            "field_name": "quarantine_event_rejected_from_bwi",
-            "form_placeholder": "",
-            "label": "Quarantine event rejected from bwi"
-        },
-        {
-            "field_name": "quarantine_event_specimen_sample_sent",
-            "form_placeholder": "",
-            "label": "Quarantine event specimen sample sent"
-        },
-        {
-            "field_name": "quarantine_events_by_category_and_level",
-            "form_placeholder": "",
-            "label": "Quarantine events by category and level"
-        },
-        {
-            "field_name": "quarantine_identification_confirmation_common_name",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmation common name"
-        },
-        {
-            "field_name": "quarantine_identification_confirmation_family",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmation family"
-        },
-        {
-            "field_name": "quarantine_identification_confirmation_genus",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmation genus"
-        },
-        {
-            "field_name": "quarantine_identification_confirmation_order",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmation order"
-        },
-        {
-            "field_name": "quarantine_identification_confirmation_species",
-            "form_placeholder": "",
-            "label": "Quarantine identification confirmation species"
-        },
-        {
-            "field_name": "quarantine_is_species_native_to_area",
-            "form_placeholder": "",
-            "label": "Quarantine is species native to area"
-        },
-        {
-            "field_name": "quarantine_opportunity_for_improvement",
-            "form_placeholder": "",
-            "label": "Quarantine opportunity for improvement"
-        },
-        {
-            "field_name": "quarantine_origin_of_source",
-            "form_placeholder": "",
-            "label": "Quarantine origin of source"
-        },
-        {
-            "field_name": "quarantine_procederual_adminstrative_type",
-            "form_placeholder": "",
-            "label": "Quarantine procederual adminstrative type"
-        },
-        {
-            "field_name": "quarantine_subcontractor_involved",
-            "form_placeholder": "",
-            "label": "Quarantine subcontractor involved"
-        },
-        {
-            "field_name": "quarantine_vessel_name",
-            "form_placeholder": "",
-            "label": "Quarantine vessel name"
+            "label": "Qms deviation type"
         },
         {
             "display_property": "dcat:Dataset/dct:spatial",
@@ -225,6 +179,11 @@
             "field_name": "spatial",
             "form_placeholder": "Paste a valid GeoJSON geometry",
             "label": "Geospatial Coverage"
+        },
+        {
+            "field_name": "specimen_sample_sent",
+            "form_placeholder": "",
+            "label": "Specimen sample sent"
         },
         {
             "field_name": "specimen_type",
@@ -236,6 +195,11 @@
             "form_placeholder": "",
             "label": "Start date",
             "preset": "date"
+        },
+        {
+            "field_name": "status_on_bwi",
+            "form_placeholder": "",
+            "label": "Status on bwi"
         },
         {
             "display_property": "dcat:Dataset/dct:keyword",
@@ -250,6 +214,41 @@
             "validators": "ignore_missing tag_string_convert"
         },
         {
+            "field_name": "task_activity",
+            "form_placeholder": "",
+            "label": "Task activity"
+        },
+        {
+            "field_name": "taxonomy_common_name",
+            "form_placeholder": "",
+            "label": "Taxonomy common name"
+        },
+        {
+            "field_name": "taxonomy_family",
+            "form_placeholder": "",
+            "label": "Taxonomy family"
+        },
+        {
+            "field_name": "taxonomy_genus",
+            "form_placeholder": "",
+            "label": "Taxonomy genus"
+        },
+        {
+            "field_name": "taxonomy_order",
+            "form_placeholder": "",
+            "label": "Taxonomy order"
+        },
+        {
+            "field_name": "taxonomy_species",
+            "form_placeholder": "",
+            "label": "Taxonomy species"
+        },
+        {
+            "field_name": "taxonomy_supporting_comments",
+            "form_placeholder": "",
+            "label": "Taxonomy supporting comments"
+        },
+        {
             "field_name": "title",
             "form_placeholder": "",
             "label": "Title",
@@ -259,6 +258,11 @@
             "field_name": "title",
             "form_placeholder": "",
             "label": "Title"
+        },
+        {
+            "field_name": "vessel_name_or_flight_number",
+            "form_placeholder": "",
+            "label": "Vessel name or flight number"
         }
     ],
     "dataset_type": "chevron-safeguard-event",
