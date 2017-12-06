@@ -84,34 +84,9 @@
             "label": "Impact id"
         },
         {
-            "field_name": "location_building",
+            "field_name": "location",
             "form_placeholder": "",
-            "label": "Location building"
-        },
-        {
-            "field_name": "location_country",
-            "form_placeholder": "",
-            "label": "Location country"
-        },
-        {
-            "field_name": "location_facility",
-            "form_placeholder": "",
-            "label": "Location facility"
-        },
-        {
-            "field_name": "location_locality",
-            "form_placeholder": "",
-            "label": "Location locality"
-        },
-        {
-            "field_name": "location_room",
-            "form_placeholder": "",
-            "label": "Location room"
-        },
-        {
-            "field_name": "location_state",
-            "form_placeholder": "",
-            "label": "Location state"
+            "label": "Location"
         },
         {
             "field_name": "measurement",
