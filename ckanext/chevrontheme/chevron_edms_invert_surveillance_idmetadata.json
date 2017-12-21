@@ -1,0 +1,284 @@
+{
+    "about_url": "https://www.chevronsherpa.com/",
+    "dataset_fields": [
+        {
+            "field_name": "abundance",
+            "form_placeholder": "",
+            "label": "Abundance"
+        },
+        {
+            "field_name": "activity_id",
+            "form_placeholder": "",
+            "label": "Activity id"
+        },
+        {
+            "field_name": "bwi_status",
+            "form_placeholder": "",
+            "label": "Bwi status"
+        },
+        {
+            "field_name": "chevron_dataset",
+            "form_placeholder": "",
+            "label": "Chevron dataset"
+        },
+        {
+            "field_name": "class",
+            "form_placeholder": "",
+            "label": "Class"
+        },
+        {
+            "field_name": "collector_lookup",
+            "form_placeholder": "",
+            "label": "Collector lookup"
+        },
+        {
+            "field_name": "common_name",
+            "form_placeholder": "",
+            "label": "Common name"
+        },
+        {
+            "field_name": "cvx_decision_doc",
+            "form_placeholder": "",
+            "label": "Cvx decision doc"
+        },
+        {
+            "field_name": "date",
+            "form_placeholder": "",
+            "label": "Date",
+            "preset": "date"
+        },
+        {
+            "field_name": "date_determined",
+            "form_placeholder": "",
+            "label": "Date determined",
+            "preset": "date"
+        },
+        {
+            "field_name": "determined_by",
+            "form_placeholder": "",
+            "label": "Determined by"
+        },
+        {
+            "field_name": "dpird_n_number",
+            "form_placeholder": "",
+            "label": "Dpird n number"
+        },
+        {
+            "field_name": "family",
+            "form_placeholder": "",
+            "label": "Family"
+        },
+        {
+            "field_name": "genus",
+            "form_placeholder": "",
+            "label": "Genus"
+        },
+        {
+            "field_name": "infraorder",
+            "form_placeholder": "",
+            "label": "Infraorder"
+        },
+        {
+            "field_name": "micro_habitat",
+            "form_placeholder": "",
+            "label": "Micro habitat"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "Name"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "notes",
+            "form_placeholder": "",
+            "label": "Notes"
+        },
+        {
+            "field_name": "order",
+            "form_placeholder": "",
+            "label": "Order"
+        },
+        {
+            "field_name": "other_id",
+            "form_placeholder": "",
+            "label": "Other id"
+        },
+        {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "site_collected",
+            "form_placeholder": "",
+            "label": "Site collected"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
+            "field_name": "species",
+            "form_placeholder": "",
+            "label": "Species"
+        },
+        {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen type"
+        },
+        {
+            "field_name": "subfamiliy",
+            "form_placeholder": "",
+            "label": "Subfamiliy"
+        },
+        {
+            "field_name": "subgenus",
+            "form_placeholder": "",
+            "label": "Subgenus"
+        },
+        {
+            "field_name": "suborder",
+            "form_placeholder": "",
+            "label": "Suborder"
+        },
+        {
+            "field_name": "superfamily",
+            "form_placeholder": "",
+            "label": "Superfamily"
+        },
+        {
+            "field_name": "synonym_author",
+            "form_placeholder": "",
+            "label": "Synonym author"
+        },
+        {
+            "field_name": "synonym_family",
+            "form_placeholder": "",
+            "label": "Synonym family"
+        },
+        {
+            "field_name": "synonym_genus",
+            "form_placeholder": "",
+            "label": "Synonym genus"
+        },
+        {
+            "field_name": "synonym_order",
+            "form_placeholder": "",
+            "label": "Synonym order"
+        },
+        {
+            "field_name": "synonym_species",
+            "form_placeholder": "",
+            "label": "Synonym species"
+        },
+        {
+            "field_name": "synonym_subfamily",
+            "form_placeholder": "",
+            "label": "Synonym subfamily"
+        },
+        {
+            "field_name": "synonym_suborder",
+            "form_placeholder": "",
+            "label": "Synonym suborder"
+        },
+        {
+            "field_name": "synonym_superfamily",
+            "form_placeholder": "",
+            "label": "Synonym superfamily"
+        },
+        {
+            "field_name": "synonym_tribe",
+            "form_placeholder": "",
+            "label": "Synonym tribe"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title"
+        },
+        {
+            "field_name": "trap_type_id",
+            "form_placeholder": "",
+            "label": "Trap type id"
+        },
+        {
+            "field_name": "tribe",
+            "form_placeholder": "",
+            "label": "Tribe"
+        }
+    ],
+    "dataset_type": "chevron-sherpa-edms-surveillance-new-samples-metadata",
+    "resource_fields": [
+        {
+            "field_name": "description",
+            "label": "Description"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "name",
+            "label": "Name"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "url",
+            "form_placeholder": "http://downloads-qcif.bioplatforms.com/my-dataset.fastq.gz",
+            "label": "Data File",
+            "preset": "resource_url_upload",
+            "upload_label": "Sequence File"
+        }
+    ],
+    "scheming_version": 1
+}
