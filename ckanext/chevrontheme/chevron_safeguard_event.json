@@ -4,8 +4,7 @@
         {
             "field_name": "dataset",
             "form_placeholder": "",
-            "label": "Dataset",
-            "preset": ""
+            "label": "Dataset"
         },
         {
             "field_name": "date",
@@ -16,170 +15,142 @@
         {
             "field_name": "event_id",
             "form_placeholder": "",
-            "label": "Event ID",
-            "preset": ""
+            "label": "Event ID"
         },
         {
             "field_name": "specimen_type",
             "form_placeholder": "",
-            "label": "Specimen Type",
-            "preset": ""
+            "label": "Specimen Type"
         },
         {
             "field_name": "condition_of_detection",
             "form_placeholder": "",
-            "label": "Condition of Detection",
-            "preset": ""
+            "label": "Condition of Detection"
         },
         {
             "field_name": "amount",
             "form_placeholder": "",
-            "label": "Amount",
-            "preset": ""
+            "label": "Amount"
         },
         {
             "field_name": "measurement",
             "form_placeholder": "",
-            "label": "Measurement",
-            "preset": ""
+            "label": "Measurement"
         },
         {
             "field_name": "pathway",
             "form_placeholder": "",
-            "label": "Pathway",
-            "preset": ""
+            "label": "Pathway"
         },
         {
             "field_name": "vessel_name_or_flight_number",
             "form_placeholder": "",
-            "label": "Vessel Name / Flight Number",
-            "preset": ""
+            "label": "Vessel Name / Flight Number"
         },
         {
             "field_name": "location",
             "form_placeholder": "",
-            "label": "Location",
-            "preset": ""
+            "label": "Location"
         },
         {
             "field_name": "additional_location_information",
             "form_placeholder": "",
-            "label": "Additional Location Information",
-            "preset": ""
+            "label": "Additional Location Information"
         },
         {
             "field_name": "collected_by",
             "form_placeholder": "",
-            "label": "Collected By",
-            "preset": ""
+            "label": "Collected By"
         },
         {
             "field_name": "event_description",
             "form_placeholder": "",
-            "label": "Event Description",
-            "preset": ""
+            "label": "Event Description"
         },
         {
             "field_name": "taxonomy_class",
             "form_placeholder": "",
-            "label": "Taxonomy Class",
-            "preset": ""
+            "label": "Taxonomy Class"
         },
         {
             "field_name": "taxonomy_order",
             "form_placeholder": "",
-            "label": "Taxonomy Order",
-            "preset": ""
+            "label": "Taxonomy Order"
         },
         {
             "field_name": "taxonomy_suborder",
             "form_placeholder": "",
-            "label": "Taxonomy Suborder",
-            "preset": ""
+            "label": "Taxonomy Suborder"
         },
         {
             "field_name": "taxonomy_infraorder",
             "form_placeholder": "",
-            "label": "Taxonomy Infraorder",
-            "preset": ""
+            "label": "Taxonomy Infraorder"
         },
         {
             "field_name": "taxonomy_superfamily",
             "form_placeholder": "",
-            "label": "Taxonomy Superfamily",
-            "preset": ""
+            "label": "Taxonomy Superfamily"
         },
         {
             "field_name": "taxonomy_family",
             "form_placeholder": "",
-            "label": "Taxonomy Family",
-            "preset": ""
+            "label": "Taxonomy Family"
         },
         {
             "field_name": "taxonomy_subfamily",
             "form_placeholder": "",
-            "label": "Taxonomy Subfamily",
-            "preset": ""
+            "label": "Taxonomy Subfamily"
         },
         {
             "field_name": "taxonomy_tribe",
             "form_placeholder": "",
-            "label": "Taxonomy Tribe",
-            "preset": ""
+            "label": "Taxonomy Tribe"
         },
         {
             "field_name": "taxonomy_subgenus",
             "form_placeholder": "",
-            "label": "Taxonomy Subgenus",
-            "preset": ""
+            "label": "Taxonomy Subgenus"
         },
         {
             "field_name": "taxonomy_genus",
             "form_placeholder": "",
-            "label": "Taxonomy Genus",
-            "preset": ""
+            "label": "Taxonomy Genus"
         },
         {
             "field_name": "taxonomy_species",
             "form_placeholder": "",
-            "label": "Taxonomy Species",
-            "preset": ""
+            "label": "Taxonomy Species"
         },
         {
             "field_name": "taxonomy_common_name",
             "form_placeholder": "",
-            "label": "Taxonomy Common Name",
-            "preset": ""
+            "label": "Taxonomy Common Name"
         },
         {
             "field_name": "status_on_bwi",
             "form_placeholder": "",
-            "label": "Status on BWI",
-            "preset": ""
+            "label": "Status on BWI"
         },
         {
             "field_name": "assessment",
             "form_placeholder": "",
-            "label": "Assessment",
-            "preset": ""
+            "label": "Assessment"
         },
         {
             "field_name": "event_classification",
             "form_placeholder": "",
-            "label": "Event Classification",
-            "preset": ""
+            "label": "Event Classification"
         },
         {
             "field_name": "opportunity_for_improvement",
             "form_placeholder": "",
-            "label": "Opportunity for Improvement",
-            "preset": ""
+            "label": "Opportunity for Improvement"
         },
         {
             "field_name": "trap_type",
             "form_placeholder": "",
-            "label": "Trap Type",
-            "preset": ""
+            "label": "Trap Type"
         },
         {
             "field_name": "actions_taken",
