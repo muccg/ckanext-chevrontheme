@@ -2,6 +2,186 @@
     "about_url": "https://www.chevronsherpa.com/",
     "dataset_fields": [
         {
+            "field_name": "dataset",
+            "form_placeholder": "",
+            "label": "Dataset",
+            "preset": "dataset"
+        },
+        {
+            "field_name": "date",
+            "form_placeholder": "",
+            "label": "Date",
+            "preset": "date"
+        },
+        {
+            "field_name": "event_id",
+            "form_placeholder": "",
+            "label": "Event ID",
+            "preset": "event_id"
+        },
+        {
+            "field_name": "specimen_type",
+            "form_placeholder": "",
+            "label": "Specimen Type",
+            "preset": "specimen_type"
+        },
+        {
+            "field_name": "condition_of_detection",
+            "form_placeholder": "",
+            "label": "Condition of Detection",
+            "preset": "condition_of_detection"
+        },
+        {
+            "field_name": "amount",
+            "form_placeholder": "",
+            "label": "Amount",
+            "preset": "amount"
+        },
+        {
+            "field_name": "measurement",
+            "form_placeholder": "",
+            "label": "Measurement",
+            "preset": "measurement"
+        },
+        {
+            "field_name": "pathway",
+            "form_placeholder": "",
+            "label": "Pathway",
+            "preset": "pathway"
+        },
+        {
+            "field_name": "vessel_name_or_flight_number",
+            "form_placeholder": "",
+            "label": "Vessel Name / Flight Number",
+            "preset": "vessel_name_or_flight_number"
+        },
+        {
+            "field_name": "location",
+            "form_placeholder": "",
+            "label": "Location",
+            "preset": "location"
+        },
+        {
+            "field_name": "additional_location_information",
+            "form_placeholder": "",
+            "label": "Additional Location Information",
+            "preset": "additional_location_information"
+        },
+        {
+            "field_name": "collected_by",
+            "form_placeholder": "",
+            "label": "Collected By",
+            "preset": "collected_by"
+        },
+        {
+            "field_name": "event_description",
+            "form_placeholder": "",
+            "label": "Event Description",
+            "preset": "event_description"
+        },
+        {
+            "field_name": "taxonomy_class",
+            "form_placeholder": "",
+            "label": "Taxonomy Class",
+            "preset": "taxonomy_class"
+        },
+        {
+            "field_name": "taxonomy_order",
+            "form_placeholder": "",
+            "label": "Taxonomy Order",
+            "preset": "taxonomy_order"
+        },
+        {
+            "field_name": "taxonomy_suborder",
+            "form_placeholder": "",
+            "label": "Taxonomy Suborder",
+            "preset": "taxonomy_suborder"
+        },
+        {
+            "field_name": "taxonomy_infraorder",
+            "form_placeholder": "",
+            "label": "Taxonomy Infraorder",
+            "preset": "taxonomy_infraorder"
+        },
+        {
+            "field_name": "taxonomy_superfamily",
+            "form_placeholder": "",
+            "label": "Taxonomy Superfamily",
+            "preset": "taxonomy_superfamily"
+        },
+        {
+            "field_name": "taxonomy_family",
+            "form_placeholder": "",
+            "label": "Taxonomy Family",
+            "preset": "taxonomy_family"
+        },
+        {
+            "field_name": "taxonomy_subfamily",
+            "form_placeholder": "",
+            "label": "Taxonomy Subfamily",
+            "preset": "taxonomy_subfamily"
+        },
+        {
+            "field_name": "taxonomy_tribe",
+            "form_placeholder": "",
+            "label": "Taxonomy Tribe",
+            "preset": "taxonomy_tribe"
+        },
+        {
+            "field_name": "taxonomy_subgenus",
+            "form_placeholder": "",
+            "label": "Taxonomy Subgenus",
+            "preset": "taxonomy_subgenus"
+        },
+        {
+            "field_name": "taxonomy_genus",
+            "form_placeholder": "",
+            "label": "Taxonomy Genus",
+            "preset": "taxonomy_genus"
+        },
+        {
+            "field_name": "taxonomy_species",
+            "form_placeholder": "",
+            "label": "Taxonomy Species",
+            "preset": "taxonomy_species"
+        },
+        {
+            "field_name": "taxonomy_common_name",
+            "form_placeholder": "",
+            "label": "Taxonomy Common Name",
+            "preset": "taxonomy_common_name"
+        },
+        {
+            "field_name": "status_on_bwi",
+            "form_placeholder": "",
+            "label": "Status on BWI",
+            "preset": "status_on_bwi"
+        },
+        {
+            "field_name": "assessment",
+            "form_placeholder": "",
+            "label": "Assessment",
+            "preset": "assessment"
+        },
+        {
+            "field_name": "event_classification",
+            "form_placeholder": "",
+            "label": "Event Classification",
+            "preset": "event_classification"
+        },
+        {
+            "field_name": "opportunity_for_improvement",
+            "form_placeholder": "",
+            "label": "Opportunity for Improvement",
+            "preset": "opportunity_for_improvement"
+        },
+        {
+            "field_name": "trap_type",
+            "form_placeholder": "",
+            "label": "Trap Type",
+            "preset": "trap_type"
+        },
+        {
             "field_name": "actions_taken",
             "form_placeholder": "",
             "label": "Actions taken"
@@ -10,16 +190,6 @@
             "field_name": "additional_action_information",
             "form_placeholder": "",
             "label": "Additional action information"
-        },
-        {
-            "field_name": "additional_location_information",
-            "form_placeholder": "",
-            "label": "Additional location information"
-        },
-        {
-            "field_name": "amount",
-            "form_placeholder": "",
-            "label": "Amount"
         },
         {
             "field_name": "asset_identifier",
@@ -32,25 +202,9 @@
             "label": "Chevron dataset"
         },
         {
-            "field_name": "collected_by",
-            "form_placeholder": "",
-            "label": "Collected by"
-        },
-        {
             "field_name": "company_involved",
             "form_placeholder": "",
             "label": "Company involved"
-        },
-        {
-            "field_name": "condition_of_detection",
-            "form_placeholder": "",
-            "label": "Condition of detection"
-        },
-        {
-            "field_name": "date",
-            "form_placeholder": "",
-            "label": "Date",
-            "preset": "date"
         },
         {
             "field_name": "end_date",
@@ -64,19 +218,9 @@
             "label": "Event assessment"
         },
         {
-            "field_name": "event_classification",
+            "field_name": "id",
             "form_placeholder": "",
-            "label": "Event classification"
-        },
-        {
-            "field_name": "event_description",
-            "form_placeholder": "",
-            "label": "Event description"
-        },
-        {
-            "field_name": "event_id",
-            "form_placeholder": "",
-            "label": "Event id"
+            "label": "Id"
         },
         {
             "field_name": "impact_id",
@@ -84,32 +228,9 @@
             "label": "Impact id"
         },
         {
-            "field_name": "location",
-            "form_placeholder": "",
-            "label": "Location"
-        },
-        {
-            "field_name": "measurement",
-            "form_placeholder": "",
-            "label": "Measurement"
-        },
-        {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "URL",
-            "preset": "dataset_slug"
-        },
-        {
             "field_name": "name",
             "form_placeholder": "",
             "label": "Name"
-        },
-        {
-            "display_property": "dcat:Dataset/dct:description",
-            "field_name": "notes",
-            "form_placeholder": "eg. Some useful notes about the data",
-            "form_snippet": "markdown.html",
-            "label": "Description"
         },
         {
             "field_name": "notes",
@@ -117,26 +238,9 @@
             "label": "Notes"
         },
         {
-            "field_name": "opportunity_for_improvement",
-            "form_placeholder": "",
-            "label": "Opportunity for improvement"
-        },
-        {
             "field_name": "origin_of_source",
             "form_placeholder": "",
             "label": "Origin of source"
-        },
-        {
-            "display_property": "dct:publisher",
-            "field_name": "owner_org",
-            "form_snippet": "organization.html",
-            "label": "Organization",
-            "validators": "owner_org_validator unicode"
-        },
-        {
-            "field_name": "pathway",
-            "form_placeholder": "",
-            "label": "Pathway"
         },
         {
             "field_name": "person_who_made_the_detection",
@@ -144,26 +248,19 @@
             "label": "Person who made the detection"
         },
         {
+            "field_name": "private",
+            "form_placeholder": "",
+            "label": "Private"
+        },
+        {
             "field_name": "qms_deviation_type",
             "form_placeholder": "",
             "label": "Qms deviation type"
         },
         {
-            "display_property": "dcat:Dataset/dct:spatial",
-            "display_snippet": "spatial.html",
-            "field_name": "spatial",
-            "form_placeholder": "Paste a valid GeoJSON geometry",
-            "label": "Geospatial Coverage"
-        },
-        {
             "field_name": "specimen_sample_sent",
             "form_placeholder": "",
             "label": "Specimen sample sent"
-        },
-        {
-            "field_name": "specimen_type",
-            "form_placeholder": "",
-            "label": "Specimen type"
         },
         {
             "field_name": "start_date",
@@ -172,51 +269,14 @@
             "preset": "date"
         },
         {
-            "field_name": "status_on_bwi",
+            "field_name": "tags",
             "form_placeholder": "",
-            "label": "Status on bwi"
-        },
-        {
-            "display_property": "dcat:Dataset/dct:keyword",
-            "field_name": "tag_string",
-            "form_attrs": {
-                "data-module": "autocomplete",
-                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
-                "data-module-tags": ""
-            },
-            "form_placeholder": "type to auto-complete",
-            "label": "Tags",
-            "validators": "ignore_missing tag_string_convert"
+            "label": "Tags"
         },
         {
             "field_name": "task_activity",
             "form_placeholder": "",
             "label": "Task activity"
-        },
-        {
-            "field_name": "taxonomy_common_name",
-            "form_placeholder": "",
-            "label": "Taxonomy common name"
-        },
-        {
-            "field_name": "taxonomy_family",
-            "form_placeholder": "",
-            "label": "Taxonomy family"
-        },
-        {
-            "field_name": "taxonomy_genus",
-            "form_placeholder": "",
-            "label": "Taxonomy genus"
-        },
-        {
-            "field_name": "taxonomy_order",
-            "form_placeholder": "",
-            "label": "Taxonomy order"
-        },
-        {
-            "field_name": "taxonomy_species",
-            "form_placeholder": "",
-            "label": "Taxonomy species"
         },
         {
             "field_name": "taxonomy_supporting_comments",
@@ -226,47 +286,23 @@
         {
             "field_name": "title",
             "form_placeholder": "",
-            "label": "Title",
-            "preset": "title"
-        },
-        {
-            "field_name": "title",
-            "form_placeholder": "",
             "label": "Title"
         },
         {
-            "field_name": "vessel_name_or_flight_number",
+            "field_name": "type",
             "form_placeholder": "",
-            "label": "Vessel name or flight number"
+            "label": "Type"
         }
     ],
     "dataset_type": "chevron-safeguard-event",
     "resource_fields": [
         {
-            "field_name": "description",
-            "label": "Description"
-        },
-        {
-            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
-            "field_name": "format",
-            "label": "Format",
-            "preset": "resource_format_autocomplete"
-        },
-        {
-            "field_name": "md5",
-            "label": "MD5"
-        },
-        {
             "field_name": "name",
             "label": "Name"
         },
         {
-            "field_name": "s3etag_8388608",
-            "label": "S3 E-Tag (8MB multipart)"
-        },
-        {
-            "field_name": "sha256",
-            "label": "SHA256"
+            "field_name": "description",
+            "label": "Description"
         },
         {
             "field_name": "url",
@@ -274,6 +310,24 @@
             "label": "Data File",
             "preset": "resource_url_upload",
             "upload_label": "Sequence File"
+        },
+        {
+            "field_name": "md5",
+            "label": "MD5"
+        },
+        {
+            "field_name": "sha256",
+            "label": "SHA256"
+        },
+        {
+            "field_name": "s3etag_8388608",
+            "label": "S3 E-Tag (8MB multipart)"
+        },
+        {
+            "display_property": "dcat:Dataset/dcat:distribution/dcat:Distribution/dcat:format",
+            "field_name": "format",
+            "label": "Format",
+            "preset": "resource_format_autocomplete"
         }
     ],
     "scheming_version": 1
