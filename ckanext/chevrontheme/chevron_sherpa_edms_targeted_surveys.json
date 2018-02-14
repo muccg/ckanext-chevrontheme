@@ -153,6 +153,51 @@
             "label": "Trap Type"
         },
         {
+            "display_property": "dct:publisher",
+            "field_name": "owner_org",
+            "form_snippet": "organization.html",
+            "label": "Organization",
+            "validators": "owner_org_validator unicode"
+        },
+        {
+            "field_name": "title",
+            "form_placeholder": "",
+            "label": "Title",
+            "preset": "title"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:description",
+            "field_name": "notes",
+            "form_placeholder": "eg. Some useful notes about the data",
+            "form_snippet": "markdown.html",
+            "label": "Description"
+        },
+        {
+            "field_name": "name",
+            "form_placeholder": "",
+            "label": "URL",
+            "preset": "dataset_slug"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:keyword",
+            "field_name": "tag_string",
+            "form_attrs": {
+                "data-module": "autocomplete",
+                "data-module-source": "/api/2/util/tag/autocomplete?incomplete=?",
+                "data-module-tags": ""
+            },
+            "form_placeholder": "type to auto-complete",
+            "label": "Tags",
+            "validators": "ignore_missing tag_string_convert"
+        },
+        {
+            "display_property": "dcat:Dataset/dct:spatial",
+            "display_snippet": "spatial.html",
+            "field_name": "spatial",
+            "form_placeholder": "Paste a valid GeoJSON geometry",
+            "label": "Geospatial Coverage"
+        },
+        {
             "field_name": "ac_collected_by",
             "form_placeholder": "",
             "label": "Ac collected by"
@@ -255,16 +300,6 @@
             "label": "Method name"
         },
         {
-            "field_name": "name",
-            "form_placeholder": "",
-            "label": "Name"
-        },
-        {
-            "field_name": "notes",
-            "form_placeholder": "",
-            "label": "Notes"
-        },
-        {
             "field_name": "order",
             "form_placeholder": "",
             "label": "Order"
@@ -344,11 +379,6 @@
             "field_name": "tags",
             "form_placeholder": "",
             "label": "Tags"
-        },
-        {
-            "field_name": "title",
-            "form_placeholder": "",
-            "label": "Title"
         },
         {
             "field_name": "tribe",
