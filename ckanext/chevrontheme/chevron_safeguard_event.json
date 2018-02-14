@@ -153,6 +153,11 @@
             "label": "Trap Type"
         },
         {
+            "field_name": "tags",
+            "form_placeholder": "",
+            "label": "Tags"
+        },
+        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -273,11 +278,6 @@
             "form_placeholder": "",
             "label": "Start date",
             "preset": "date"
-        },
-        {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
         },
         {
             "field_name": "task_activity",

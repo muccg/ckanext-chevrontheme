@@ -153,6 +153,11 @@
             "label": "Trap Type"
         },
         {
+            "field_name": "tags",
+            "form_placeholder": "",
+            "label": "Tags"
+        },
+        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -374,11 +379,6 @@
             "field_name": "synonym_superfamily",
             "form_placeholder": "",
             "label": "Synonym superfamily"
-        },
-        {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
         },
         {
             "field_name": "tribe",
