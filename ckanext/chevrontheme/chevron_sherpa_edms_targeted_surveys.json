@@ -153,6 +153,11 @@
             "label": "Trap Type"
         },
         {
+            "field_name": "location_facet",
+            "form_placeholder": "",
+            "label": "Location Facet"
+        },
+        {
             "field_name": "tags",
             "form_placeholder": "",
             "label": "Tags"
