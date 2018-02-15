@@ -447,11 +447,6 @@
             "label": "Synonym tribe"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "field_name": "tribe",
             "form_placeholder": "",
             "label": "Tribe"

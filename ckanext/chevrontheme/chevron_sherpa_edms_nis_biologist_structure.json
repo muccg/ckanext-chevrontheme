@@ -362,11 +362,6 @@
             "preset": "date"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "field_name": "type",
             "form_placeholder": "",
             "label": "Type"

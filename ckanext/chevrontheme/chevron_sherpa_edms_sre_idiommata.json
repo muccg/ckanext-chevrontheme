@@ -395,11 +395,6 @@
             "label": "Superfamily"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "field_name": "time_since_rain",
             "form_placeholder": "",
             "label": "Time since rain"

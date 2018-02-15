@@ -275,11 +275,6 @@
             "preset": "date"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "field_name": "task_activity",
             "form_placeholder": "",
             "label": "Task activity"

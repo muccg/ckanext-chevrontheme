@@ -376,11 +376,6 @@
             "label": "Sub species"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "field_name": "transponder_code",
             "form_placeholder": "",
             "label": "Transponder code"
