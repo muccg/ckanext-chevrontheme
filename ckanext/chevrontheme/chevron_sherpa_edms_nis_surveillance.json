@@ -158,11 +158,6 @@
             "label": "Location Facet"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -379,6 +374,11 @@
             "field_name": "sub_species",
             "form_placeholder": "",
             "label": "Sub species"
+        },
+        {
+            "field_name": "tags",
+            "form_placeholder": "",
+            "label": "Tags"
         },
         {
             "field_name": "transponder_code",

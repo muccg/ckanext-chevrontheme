@@ -158,11 +158,6 @@
             "label": "Location Facet"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -239,11 +234,6 @@
             "preset": "date"
         },
         {
-            "field_name": "event_assessment",
-            "form_placeholder": "",
-            "label": "Event assessment"
-        },
-        {
             "field_name": "id",
             "form_placeholder": "",
             "label": "Id"
@@ -283,6 +273,11 @@
             "form_placeholder": "",
             "label": "Start date",
             "preset": "date"
+        },
+        {
+            "field_name": "tags",
+            "form_placeholder": "",
+            "label": "Tags"
         },
         {
             "field_name": "task_activity",

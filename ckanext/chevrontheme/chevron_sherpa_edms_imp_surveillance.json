@@ -158,11 +158,6 @@
             "label": "Location Facet"
         },
         {
-            "field_name": "tags",
-            "form_placeholder": "",
-            "label": "Tags"
-        },
-        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
@@ -374,6 +369,11 @@
             "field_name": "survey_type",
             "form_placeholder": "",
             "label": "Survey type"
+        },
+        {
+            "field_name": "tags",
+            "form_placeholder": "",
+            "label": "Tags"
         },
         {
             "field_name": "type",
