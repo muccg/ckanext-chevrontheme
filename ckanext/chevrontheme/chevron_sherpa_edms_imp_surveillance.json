@@ -153,6 +153,11 @@
             "label": "Trap Type"
         },
         {
+            "field_name": "location_facet",
+            "form_placeholder": "",
+            "label": "Location Facet"
+        },        
+        {
             "display_property": "dct:publisher",
             "field_name": "owner_org",
             "form_snippet": "organization.html",
