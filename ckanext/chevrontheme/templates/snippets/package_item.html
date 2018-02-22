@@ -26,51 +26,77 @@ Example:
     <td>
         {% if package.type == 'chevron-padil-images' %}
             {{ package.species_name }}
+        {% elif package.type == 'chevron-safeguard-event' %}
+            {{ package.specimen_type }}
         {% else %}
             {{ package.specimen_type }}
         {% endif %}
     </td>
     <td>
-      {% if package.type == 'chevron-padil-images' %}
-         {{ package.taxonomy }}
-      {% elif package.type == 'chevron-safeguard-event' %}
-        {{ package.quarantine_identification_confirmation_genus }} {{ package.quarantine_identification_confirmation_species }}
-      {% else %}
-        {{ package.genus }} {{ package.species }}
-      {% endif %}
-    </td>
-    <td>
-      {% if package.type == 'chevron-padil-images' %}
-         {{ package.location_data }}
-      {% elif package.type == 'chevron-safeguard-event' %}
-        {{ package.location_locality }}
-      {% else %}
-        {{ package.locality }}
-      {% endif %}
-    </td>
-    <td>
-      {% if package.type == 'chevron-safeguard-event' %}
-        {{ package.date_occurred }}
-      {% else %}
-        {% if package.survey_date %}
-          {{ package.survey_date }}
-        {% elif package.start_date %}
-          {{ package.start_date }} &mdash; {{ package.end_date }}
+        {% if package.type == 'chevron-padil-images' %}
+            {{ package.taxonomy }}
+        {% elif package.type == 'chevron-safeguard-event' %}
+            {{ package.taxonomy_genus }} {{ package.taxonomy_species }}
+        {% else %}
+            {{ package.taxnonmy_genus }} {{ package.species }}
         {% endif %}
-      {% endif %}
+    </td>
+    <td>
+        {% if package.type == 'chevron-padil-images' %}
+            {{ package.location_data }}
+        {% else %}
+            {% if package.locality_name %}
+                {{ package.locality_name }}
+            {% elif package.locality %}
+                {{ package.locality }}
+            {% elif package.location %}
+                {{ package.location }}
+            {% elif package.location_description %}
+                {{ location_description }}
+            {% elif package.location_code %}
+                {{ location_code }}
+            {% endif %}
+        {% endif %}
+    </td>
+    <td>
+        {% if package.type == 'chevron-safeguard-event' %}
+            {{ package.date }}
+        {% else %}
+            {% if package.date %}
+                {{ package.date }}
+            {% elif package.survey_date %}
+                {{ package.survey_date }}
+            {% elif package.date_determined %}
+                {{ package.date_determined }}
+            {% elif package.start_date %}
+                {{ package.start_date }} &mdash; {{ package.end_date }}
+            {% endif %}
+        {% endif %}
     </td>
     <td>
         {% if package.type == 'chevron-padil-images' %}
             {{ package.exotic_status }}
+        {% elif package.type == 'chevron-safeguard-event' %}
+            {{ package.status_on_bwi }}
         {% else %}
-            {{ package.quarantine_is_species_native_to_area }}
+            {{ package.status_on_bwi }}
         {% endif %}
     </td>
     <td>
-      {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}
+        {% if package.type == 'chevron-safeguard-event' %}
+            {{ package.amount }}
+        {% elif package.abundance %}
+            {{ package.abundance }}
+        {% else %}
+            {{ package.amount_of_material_or_number_of_individuals }} {{ package.quarantine_event_amount_of_materials_in_units }}
+        {% endif %}
     </td>
     <td>
-      {{ package.quarantine_condition_of_discovery }}
+        {% if package.type == 'chevron-safeguard-event' %}
+            {{ package.condition_of_detection }}
+        {% else %}
+            {{ package.identification_method }}
+        {% endif %}
     </td>
   </tr>
 {% endblock %}

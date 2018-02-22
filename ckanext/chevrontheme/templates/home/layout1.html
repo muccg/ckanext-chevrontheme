@@ -13,19 +13,25 @@ td .fa {
 
 <div role="main" class="hero">
   <div class="container">
-
     <div class="span10 col2">
       <div class="module module-search module-narrow module-shallow box">
+
   {% if c.userobj %}
+
+  <div class="page_primary_action">
+    <a class="btn btn-primary" href="{{ h.url_for('home') }}chevron-safeguard-event/new"><i class="icon-plus-sign-alt"></i> Add Safeguard Event</a>
+  </div>
+
 	<form id='front-search' class="module-content search-form" method="get" action="/dataset" _lpchecked="1">
 	  <h3 class="heading">Search</h3>
-	  <div class="search-input control-group search-giant">
+      <div class="search-input control-group search-giant">
 	    <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="E.g. environment">
 	    <button type="submit">
 	      <i class="icon-search"></i>
 	      <span>Search</span>
 	    </button>
     </div>
+
   {% for facet in c.search_facets %}
   <div class="tags">
     <h3>{{ facet | capitalize | replace('_', ' ') }}</h3>
