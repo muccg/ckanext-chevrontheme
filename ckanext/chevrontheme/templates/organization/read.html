@@ -4,6 +4,7 @@
   {% if h.check_access('package_create', {'owner_org': c.group_dict.id}) %}
     <a class="btn btn-primary" href="{{ h.url_for('home') }}chevron-safeguard-event/new"><i class="icon-plus-sign-alt"></i> Add Safeguard Event</a>
   {% endif %}
+  {% snippet 'ckanext_bulk/snippets/organization_button.html', id=c.group_dict.id %}
 {% endblock %}
 
 {% block primary_content_inner %}

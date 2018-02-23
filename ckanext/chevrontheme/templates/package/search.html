@@ -14,6 +14,7 @@
         {% if h.check_access('package_create') %}
           <div class="page_primary_action">
             <a class="btn btn-primary" href="{{ h.url_for('home') }}chevron-safeguard-event/new"><i class="icon-plus-sign-alt"></i> Add Safeguard Event</a>
+            {% snippet 'ckanext_bulk/snippets/search_button.html', id=c.group_dict.id %}
           </div>
         {% endif %}
       {% endblock %}
