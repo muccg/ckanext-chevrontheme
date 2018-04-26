@@ -33,15 +33,17 @@ td .fa {
     </div>
 
   {% for facet in c.search_facets %}
+  {% if facet == "organization" or facet == "event_classification" or facet == "specimen_type" %}
   <div class="tags">
-    <h3>{{ facet | capitalize | replace('_', ' ') }}</h3>
-      {% set items = c.search_facets[facet]['items'] %}
-      {% for entry in items | sort(attribute='count', reverse=True) %}
-        {% if loop.index < 15 %}
-        <a class="tag" href="{% url_for controller='package', action='search' %}?{{ facet }}={{entry.name}}">{{ h.truncate(entry.display_name, 22) }} ({{entry.count}})</a>
-        {% endif %}
-      {% endfor %}
+        <h3>{{ facet | capitalize | replace('_', ' ') }}</h3>
+        {% set items = c.search_facets[facet]['items'] %}
+        {% for entry in items | sort(attribute='count', reverse=True) %}
+            {% if loop.index < 15 %}
+                <a class="tag" href="{% url_for controller='package', action='search' %}?{{ facet }}={{entry.name}}">{{ h.truncate(entry.display_name, 22) }} ({{entry.count}})</a>
+            {% endif %}
+        {% endfor %}
   </div>
+  {% endif %}
   {% endfor %}
   </form>
 
